@@ -20,10 +20,6 @@ class Parse():
         for index, text, tokens in self.inputDF.itertuples(): 
             print("Started processing document %s" %index)
 
-            extractedInfo = {}
-
-            extractedInfo['file'] = index # Todo - change this with file name
-
             #handle name extraction --
             name = self.extract_name(text)
 
@@ -42,9 +38,11 @@ class Parse():
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
-            extractedInfo = self.getInfo(name, email, phone, experience, skills, qualification) # TODO -> move this to util
-
-            print(extractedInfo)
+            extractedInfo = self.getInfo("fileName", name, email, phone, experience, skills, qualification) # TODO -> move this to util
+            
+            print(extractedInfo) #TODO -> remove this  print
+        
+        #TODO -> Dump all jsonRespnses to csv or excel sheet
         
     def readResumeFiles(self):
         try:
@@ -158,8 +156,9 @@ class Parse():
             return ''
             pass
 
-    def getInfo(self, name, email, phone, experience, skills, qualification):
+    def getInfo(self, fileName, name, email, phone, experience, skills, qualification):
         return {
+            "file": fileName,
             "name": name,
             "email": email,
             "phone": phone,
