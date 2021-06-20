@@ -22,25 +22,27 @@ class Parse():
 
             extractedInfo = {}
 
-            extractedInfo['file'] = index # change this with file name
+            extractedInfo['file'] = index # Todo - change this with file name
 
             #handle name extraction --
-            self.setName(text, extractedInfo)
+            name = self.extract_name(text)
 
             #handle email extraction--
-            self.setEmail(text, extractedInfo)
+            email = self.extract_email(text)
 
             #handle phone number extraction--
-            self.setPhone(text, extractedInfo)
+            phone = self.extract_phone(text)
 
             #handle experience extraction --
-            self.setExperience(text, extractedInfo)
+            experience = self.extract_experience(text)
             
             #handle skills extraction--
-            self.setSkills(text, extractedInfo)
+            skills = self.extract_skills(text)
 
             #handle qualification extraction--
-            self.setQualification(text, extractedInfo)
+            qualification = self.extract_qualification(text)
+
+            extractedInfo = self.getInfo(name, email, phone, experience, skills, qualification) # TODO -> move this to util
 
             print(extractedInfo)
         
@@ -77,52 +79,58 @@ class Parse():
         except Exception as e:
             print(e)
 
-    def setName(self, text, infoDict):
+    def extract_name(self, text):
         try:
            return ''
         except:
             return ''
             pass
 
-    def setEmail(self, text, infoDict):
-        email = None
-        try:
-            pattern = re.compile(r'\S*@\S*')
-            matches = pattern.findall(text) # Gets all email addresses as a list
-            email = matches
-        except Exception as e:
-            print(e)
-
-        infoDict['email'] = email
-        return email
+    def extract_email(self, text):
+        email = re.findall(r"([^@|\s]+@[^@]+\.[^@|\s]+)", text)
+        if email:
+            try:
+                return email[0].split()[0].strip(';')
+            except IndexError:
+                return None
     
-    def setPhone(self, text, infoDict):
+    def extract_phone(self, text):
         try:
-           infoDict['Phone'] = 'TODO ---'
+           return ''
         except:
             return ''
             pass
         
-    def setExperience(self, text, infoDict):
+    def extract_experience(self, text):
         try:
-           infoDict['Experience'] = 'TODO ---'
+           return ''
         except:
             return ''
             pass
 
-    def setSkills(self, text, infoDict):
+    def extract_skills(self, text):
         try:
-           infoDict['Skills'] = 'TODO ---'
+            return ''
         except:
             return ''
             pass
         
-    def setQualification(self, text, infoDict):
+    def extract_qualification(self, text):
         try:
-           infoDict['Qualification'] = 'TODO ---'
+           return ''
         except:
             return ''
             pass
+
+    def getInfo(self, name, email, phone, experience, skills, qualification):
+        return {
+            "name": name,
+            "email": email,
+            "phone": phone,
+            "experience": experience,
+            "skills": skills,
+            "qualification": qualification,
+        }
 
 if __name__ == "__main__":
     verbose = False
