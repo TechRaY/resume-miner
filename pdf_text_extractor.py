@@ -19,7 +19,6 @@ def convert_pdf_to_text():
         data = parsed_file['content']
         
         resume_text.append(data)
-        # df = pd.DataFrame({'parsedText': resume_text, 'toekens': ''})
         df = pd.DataFrame(resume_text)
     return df
     

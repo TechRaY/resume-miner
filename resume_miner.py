@@ -71,10 +71,9 @@ class Parse():
 
         return df
 
-    def tokenize(row, inputDF):
+    def tokenize(self, inputDF):
         try:
-            self.tokens = self.preprocess(inputDF)
-            return self.tokens
+            return self.preprocess(inputDF)
         except Exception as e:
             print(e)
 
