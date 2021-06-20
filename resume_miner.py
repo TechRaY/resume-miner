@@ -5,30 +5,78 @@ Created on Sat Jun 19 20:34:46 2021
 @author: tapan
 """
 
+from pydoc import doc
 import sys
 import nltk
 import pandas as pd
-from pdf_text_extractor import convert_pdf_to_text
+from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
 class Parse():
     inputDF = pd.DataFrame()
     def __init__(self,verbose=False):
         print(" Starting Program ")
-        self.inputDF = self.readResumeFiles()
+        self.inputDF = self.tokenize(self.readResumeFiles())
+
+        for indx, row in self.inputDF.itertuples(name='Frame'): 
+            print("Started processing document %s" %indx)
+
+            extractedInfo = {}
+
+            extractedInfo['file'] = indx # change this with file name
+
+            #handle name extraction --
+            self.setPhone(row, extractedInfo)
+
+            #handle email extraction--
+            self.setEmail(row, extractedInfo)
+
+            #handle phone number extraction--
+            self.setPhone(row, extractedInfo)
+
+            #handle experience extraction --
+            self.setPhone(row, extractedInfo)
+            
+            #handle skills extraction--
+            self.setEmail(row, extractedInfo)
+
+            #handle qualification extraction--
+            self.setPhone(row, extractedInfo)
+
+            print(extractedInfo)
         
     def readResumeFiles(self):
         try:
-           convert_pdf_to_text() 
+           return convert_pdf_to_text()
         except:
             return ''
             pass
-     
-    def preprocess(self,document):
-        pass
-    
-    def tokenize(self,inputDF):
-        pass
-        
+    def preprocess(self, document):
+        df = pd.DataFrame()
+        for indx, row in document.itertuples(name='Frame'): 
+            sentences = nltk.tokenize.sent_tokenize(row) #split into sentences
+            sentences = [nltk.tokenize.word_tokenize(sent) for sent in sentences] #split/tokenize sentences into words
+
+            tokens = sentences
+            finalTokenList = []
+            for token in tokens:
+                finalTokenList += token
+            
+            tokens = finalTokenList
+
+            df = df.append(pd.DataFrame(
+                    [[row, tokens]], 
+                    columns = ['parsedText','tokens']),
+                    ignore_index=True
+                )
+
+        return df
+
+    def tokenize(self, inputDF):
+        try:
+            self.tokens = self.preprocess(inputDF)
+            return self.tokens
+        except Exception as e:
+            print(e)
 
 if __name__ == "__main__":
     verbose = False
