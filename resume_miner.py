@@ -15,9 +15,9 @@ class Parse():
     inputDF = pd.DataFrame()
     def __init__(self,verbose=False):
         print(" Starting Program ")
-        self.inputDF = self.tokenize(self.readResumeFiles())
+        self.tokenizedDF = self.tokenize(self.readResumeFiles())
 
-        for index, text, tokens in self.inputDF.itertuples(): 
+        for index, text, tokens in self.tokenizedDF.itertuples(): 
             print("Started processing document %s" %index)
 
             #handle name extraction --
@@ -38,7 +38,7 @@ class Parse():
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
-            extractedInfo = self.getInfo("fileName", name, email, phone, experience, skills, qualification) # TODO -> move this to util
+            extractedInfo = self.getInfo("fileName " + str(index), name, email, phone, experience, skills, qualification) # TODO -> move this to util
             
             print(extractedInfo) #TODO -> remove this  print
         
