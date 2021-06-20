@@ -7,7 +7,7 @@ Created on Sat Jun 19 20:34:46 2021
 
 from pydoc import doc
 import sys
-import nltk
+import nltk, re
 import pandas as pd
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
@@ -71,49 +71,55 @@ class Parse():
 
         return df
 
-    def tokenize(self, inputDF):
+    def tokenize(row, inputDF):
         try:
             self.tokens = self.preprocess(inputDF)
             return self.tokens
         except Exception as e:
             print(e)
 
-    def setName(self, document):
+    def setName(row, document):
         try:
            return ''
         except:
             return ''
             pass
 
-    def setEmail(self, document):
+    def setEmail(row, infoDict):
+        email = None
         try:
-           return ''
-        except:
-            return ''
-            pass
+            pattern = re.compile(r'\S*@\S*')
+            matches = pattern.findall(row) # Gets all email addresses as a list
+            email = matches
+        except Exception as e:
+            print(e)
+
+        infoDict['email'] = email
+        print("\n" + infoDict)
+        return email
     
-    def setPhone(self, document):
+    def setPhone(row, document):
         try:
            return ''
         except:
             return ''
             pass
         
-    def setExperience(self, document):
+    def setExperience(row, document):
         try:
            return ''
         except:
             return ''
             pass
 
-    def setSkills(self, document):
+    def setSkills(row, document):
         try:
            return ''
         except:
             return ''
             pass
         
-    def setQualification(self, document):
+    def setQualification(row, document):
         try:
            return ''
         except:
