@@ -25,7 +25,7 @@ class Parse():
             extractedInfo['file'] = indx # change this with file name
 
             #handle name extraction --
-            self.setPhone(row, extractedInfo)
+            self.setName(row, extractedInfo)
 
             #handle email extraction--
             self.setEmail(row, extractedInfo)
@@ -34,13 +34,13 @@ class Parse():
             self.setPhone(row, extractedInfo)
 
             #handle experience extraction --
-            self.setPhone(row, extractedInfo)
+            self.setExperience(row, extractedInfo)
             
             #handle skills extraction--
-            self.setEmail(row, extractedInfo)
+            self.setSkills(row, extractedInfo)
 
             #handle qualification extraction--
-            self.setPhone(row, extractedInfo)
+            self.setQualification(row, extractedInfo)
 
             print(extractedInfo)
         
@@ -77,6 +77,48 @@ class Parse():
             return self.tokens
         except Exception as e:
             print(e)
+
+    def setName(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
+
+    def setEmail(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
+    
+    def setPhone(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
+        
+    def setExperience(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
+
+    def setSkills(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
+        
+    def setQualification(self, document):
+        try:
+           return ''
+        except:
+            return ''
+            pass
 
 if __name__ == "__main__":
     verbose = False
