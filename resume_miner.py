@@ -17,30 +17,30 @@ class Parse():
         print(" Starting Program ")
         self.inputDF = self.tokenize(self.readResumeFiles())
 
-        for indx, row in self.inputDF.itertuples(name='Frame'): 
-            print("Started processing document %s" %indx)
+        for index, text, tokens in self.inputDF.itertuples(): 
+            print("Started processing document %s" %index)
 
             extractedInfo = {}
 
-            extractedInfo['file'] = indx # change this with file name
+            extractedInfo['file'] = index # change this with file name
 
             #handle name extraction --
-            self.setName(row, extractedInfo)
+            self.setName(text, extractedInfo)
 
             #handle email extraction--
-            self.setEmail(row, extractedInfo)
+            self.setEmail(text, extractedInfo)
 
             #handle phone number extraction--
-            self.setPhone(row, extractedInfo)
+            self.setPhone(text, extractedInfo)
 
             #handle experience extraction --
-            self.setExperience(row, extractedInfo)
+            self.setExperience(text, extractedInfo)
             
             #handle skills extraction--
-            self.setSkills(row, extractedInfo)
+            self.setSkills(text, extractedInfo)
 
             #handle qualification extraction--
-            self.setQualification(row, extractedInfo)
+            self.setQualification(text, extractedInfo)
 
             print(extractedInfo)
         
@@ -77,50 +77,49 @@ class Parse():
         except Exception as e:
             print(e)
 
-    def setName(row, document):
+    def setName(self, text, infoDict):
         try:
            return ''
         except:
             return ''
             pass
 
-    def setEmail(row, infoDict):
+    def setEmail(self, text, infoDict):
         email = None
         try:
             pattern = re.compile(r'\S*@\S*')
-            matches = pattern.findall(row) # Gets all email addresses as a list
+            matches = pattern.findall(text) # Gets all email addresses as a list
             email = matches
         except Exception as e:
             print(e)
 
         infoDict['email'] = email
-        print("\n" + infoDict)
         return email
     
-    def setPhone(row, document):
+    def setPhone(self, text, infoDict):
         try:
-           return ''
+           infoDict['Phone'] = 'TODO ---'
         except:
             return ''
             pass
         
-    def setExperience(row, document):
+    def setExperience(self, text, infoDict):
         try:
-           return ''
+           infoDict['Experience'] = 'TODO ---'
         except:
             return ''
             pass
 
-    def setSkills(row, document):
+    def setSkills(self, text, infoDict):
         try:
-           return ''
+           infoDict['Skills'] = 'TODO ---'
         except:
             return ''
             pass
         
-    def setQualification(row, document):
+    def setQualification(self, text, infoDict):
         try:
-           return ''
+           infoDict['Qualification'] = 'TODO ---'
         except:
             return ''
             pass
