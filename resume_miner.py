@@ -35,6 +35,9 @@ class Parse():
             #handle email extraction--
             email = self.extract_email(text)
 
+            #handle linkedin profile extraction--
+            linkedin = self.extract_linkedin(text)
+
             #handle phone number extraction--
             phone = self.extract_phone(text)
 
@@ -47,7 +50,7 @@ class Parse():
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
-            extractedInfo = self.getInfo("fileName " + str(index), name, email, phone, experience, skills, qualification) # TODO -> move this to util
+            extractedInfo = self.getInfo("fileName " + str(index), name, email, linkedin, phone, experience, skills, qualification) # TODO -> move this to util
             
             print(extractedInfo) #TODO -> remove this  print
         
@@ -108,6 +111,16 @@ class Parse():
         if email:
             try:
                 return email[0].split()[0].strip(';')
+            except IndexError:
+                return None
+                
+    def extract_linkedin(self, text):
+        linkedin = re.findall(r"(?P<permalink>(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/([\w\-\_À-ÿ%]+)\/?)", text)
+        # linkedin = re.findall(r"(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?", text)
+       
+        if linkedin:
+            try:
+                return linkedin
             except IndexError:
                 return None
     
@@ -176,11 +189,12 @@ class Parse():
             return ''
             pass
 
-    def getInfo(self, fileName, name, email, phone, experience, skills, qualification):
+    def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, qualification):
         return {
             "file": fileName,
             "name": name,
             "email": email,
+            "linkedin": linkedin,
             "phone": phone,
             "experience": experience,
             "skills": skills,
