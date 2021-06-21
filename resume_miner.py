@@ -9,7 +9,15 @@ from pydoc import doc
 import sys
 import nltk, re
 import pandas as pd
+import spacy
+from spacy.matcher import Matcher
+from spacy.matcher import PhraseMatcher
+
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
+
+nlp = spacy.load('en_core_web_sm')
+# initialize matcher with a vocab
+matcher = Matcher(nlp.vocab)
 
 class Parse():
     inputDF = pd.DataFrame()
@@ -78,11 +86,20 @@ class Parse():
             print(e)
 
     def extract_name(self, text):
-        try:
-           return ''
-        except:
-            return ''
-            pass
+        nlp_text = nlp(text)
+
+        # First name and Last name are always Proper Nouns
+        # pattern_FML = [{'POS': 'PROPN', 'ENT_TYPE': 'PERSON', 'OP': '+'}]
+
+        pattern = [{'POS': 'PROPN'}, {'POS': 'PROPN'}]
+        matcher.add('NAME', None, pattern)
+
+        matches = matcher(nlp_text)
+
+        for match_id, start, end in matches:
+            span = nlp_text[start:end]
+            return span.text
+        return ""
 
     def extract_email(self, text):
         email = re.findall(r"([^@|\s]+@[^@]+\.[^@|\s]+)", text)
