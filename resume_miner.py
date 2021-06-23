@@ -16,7 +16,7 @@ from spacy.matcher import PhraseMatcher
 
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 # initialize matcher with a vocab
 matcher = Matcher(nlp.vocab)
 
@@ -97,7 +97,7 @@ class Parse():
         # pattern_FML = [{'POS': 'PROPN', 'ENT_TYPE': 'PERSON', 'OP': '+'}]
 
         pattern = [{'POS': 'PROPN'}, {'POS': 'PROPN'}] #define patterns
-        matcher.add('NAME', None, pattern) #match_id_str, call_back_func, pattern
+        matcher.add('NAME', [pattern]) #match_id_str, call_back_func, pattern
 
         matches = matcher(nlp_text)
 
