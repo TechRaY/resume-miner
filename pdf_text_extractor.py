@@ -8,7 +8,7 @@ Created on Sat Jun 19 08:00:41 2021
 import pandas as pd
 from tika import parser
 import glob
-
+from utility import create_paragraphs
 
 def convert_pdf_to_text():
     
@@ -17,7 +17,10 @@ def convert_pdf_to_text():
     for resume in resume_files:
         parsed_file = parser.from_file(resume)
         data = parsed_file['content']
-        
+        # print("****************")
+        # abc = create_paragraphs(data)
+        # print(list(abc))
+        # print("****************")
         resume_text.append(data)
         df = pd.DataFrame(resume_text)
     return df
