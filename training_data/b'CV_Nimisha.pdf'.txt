@@ -1,0 +1,24 @@
+N IMI S H A MI S HR A    PR OJ E C T E NGI NE E R   
+With consistent hard work and a zeal to achieve technical excellence, I take on every project with the sole goal of  molding it to customer feedback and collaborative efforts.  
+Involved in the backend and AI services of different projects, and using my technical and operational knowledge to  ease requirement gathering and produce scalable, testable, maintainable, good-quality code.  
+  CONTACT   
++ 91 7651931510   
+nimisha.mishra217@gmail.com  
+  EDUCATION   UG, NIT Jamshedpur  
+2015 - 2019  B. Tech in Electronics and  Communication.  CGPA - 8.80  
+12th Boards - CBSE  2015  
+Rani Laxmi Bai Memorial  School, Lucknow.  97.2 %  10th Boards - CBSE  
+2013  Rani Laxmi Bai Memorial  School, Lucknow.  CGPA - 10  
+  SKILLS   • C++, HTML, CSS, JavaScript  • MySQL, PostgreSQL  • Nodejs, Express  
+• AI – Microsoft Bot Framework,  Microsoft Azure Cognitive Services,  IBM Watson Cognitive Services  • Cloud Provider Services – Microsoft  Azure Services  • Data Structures and Algorithms  • Project tools: NPM, JIRA, Agile and  Scrum  
+  WORK EXPERIENCE   WIPRO LIMITED / PROJECT ENGINEER  
+2019 - PRESENT  
+Joined Wipro through PPO in June 2019 as a part of Wipro Digital.  Started working with Cognitive AI practice due to my interest in the  field.  Key Responsibilities:  
+o Developed consumable REST APIs using Backend Services that are  production ready, scalable, maintainable and testable.  o Was involved in developing, testing, maintaining as well as successful  deployment of Bots for live users using Microsoft Bot Framework and  Microsoft Azure Services.  
+o Collaborated with designers, developers and product managers to fix  bugs highlighted by the live users as well as deliver new features and  solutions according to user feedback.  o Worked on use cases, which required IBM Watson cognitive services  and developed Bots using IBM Watson Assistant.  
+o Worked in an Agile based environment and took part in discussions  based on sprint planning, user story grooming, Jira hygiene  maintenance as well as issue prioritization to ensure efficient and  timely solution delivery.  o Helped in driving communication, gathering client and story  requirements, defining resources as well as recognizing gaps.  
+Key Skills Involved – JavaScript, Nodejs, Express, Microsoft Bot  Framework, Azure Cognitive Services, NLP  
+o Microsoft Certified - Azure Fundamentals (AZ900)  o Microsoft Certified - Azure AI Engineer (AI100)  
+o IBM Certified Application Developer - Watson V3 Certification  
+  ACHIEVEMENTS   o Worked for Royal DSM (client) to develop a chat bot (DSM 3.0) for  their employees which served on DSM’s company portal. The Bot went  live with a huge success and got very positive feedback from users and  customer’s side. The bot was based on Azure Bot Framework coupled  with Node.JS for backend integration.  
+o Developed a Search Engine based chat bot for petroleum industry,  using IBM Watson Cognitive Service  o Secured 3rd position in Uttar Pradesh in AISSCE 2014 (CBSE) with  97.2%.  

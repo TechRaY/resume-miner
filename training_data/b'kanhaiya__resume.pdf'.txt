@@ -1,0 +1,20 @@
+Kanhaiya Kumar Software Engineer kanhaiyak42@gmail.com 
+7903627110 Indore, India 
+linkedin.com/in/kanhasonu21 SKILLS 
+Javascript React Redux HTML5 
+CSS3 Bootstrap Git Azure 
+NodeJS Python Flask 
+LANGUAGES English Professional Working Proficiency Hindi Native or Bilingual Proficiency 
+WORK EXPERIENCE Software Engineer RWS Moravia 06/2019 - Present, Indore , India 
+Active communication with Clients. 2 Years of working experience as React JS developer 
+Develop web solutions based on React JS, Redux, NodeJS, flask and other JavaScript technologies. Increase client satisfaction by successfully delivering projects on time. 
+PROJECTS JIO Unified Ads Identified web-based user interactions and developed highly -responsive user interface components via React concepts. 
+Translated designs & wireframes into high quality code and wrote application interface code via Javascript following React.js workflows. RIL GRCA Designed its architecture and developed the application using React and Redux. 
+Design the backend architecture and develop the application using NodeJS with Docker microservices. Created RESTAPIs built-in NodeJs and Express along with data fetch from MongoDB. 
+NetCore Scoop Scoop is an AI-powered conversational analytics platform designed to help insides ales teams to maximize sales conversation optimization. Integrated Video.js and Highcharts.js for audio & video and Graphical representations like Bar, Column, area-spline, bubble, polar charts. 
+Video Moderation Video Moderation is a web platform where we can detect if any video contains any kind of adult nudity present with the help of machine learning. Designed its architecture and develop the application using React and React Hooks. 
+Created components and maintaining a session with JWT Token with Axios interceptors. Maintain Redux architecture. 
+EDUCATION Bachelor of Engineering (Computer Science) Lakshmi Narain College of Technology 06/2015 - 05/2019, Bhopal, India 
+High School Sri Ramchandra High School 06/2013 - 06/2015, Vaishali,Bihar CERTIFICATE Front-End Web Development with React   By- Coursera , Credential ID -5HJRM69LDKK9 
+Neural Networks and Deep Learning   By- Coursera, Credential ID - 8D5F83TQV5WV Job role and responsibilities 
+mailto:kanhaiyak42@gmail.com https://linkedin.com/in/kanhasonu21/ https://www.coursera.org/account/accomplishments/verify/5HJRM69LDKK9 https://www.coursera.org/account/accomplishments/verify/8D5F83TQV5WV 

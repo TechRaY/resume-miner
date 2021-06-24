@@ -1,0 +1,30 @@
+Abhimanyu Bambhaniya abhimanyu.uec2015@iitr.ac.in | (+91) 7217259250 Sophomore Undergraduate | Department of Electronics and Communication Engineering Indian Institute of Technology Roorkee 
+Interests Robotics and Control , Image and Video Processing, Microprocessor Designing , Circuit Design, Machine Learning , Artificial Intelligence . Football, Travelling 
+Education 2015-Present Indian Institute of Technology (IIT), Roorkee Currently pursuing 3rd Semester of Electronics & Communication Engineering Current CGPA: 8.071 Credits Completed: 70/70 
+May 2015 All India Senior School Examination, STD XII, CBSE Shree Swaminarayan H.V. Vidhyalaya, Surat Percentage: 94.2 May 2013 All India Secondary School Examination, STD X, CBSE Shree Swaminarayan H.V. Vidhyalaya, Surat CGPA: 10/10 
+Academic Research and Experience January 2016 
+Navigation of the bot on the given path and making a long exposure photo using Matlab February 2016 
+◦ The objective was to make a bot which moves in a particular a pattern in a room with a single LED on it. ◦ I used a webcam to capture the real time video of the bot and then used background subtraction and image thresholding in Matlab processed this video to give a final image that had the whole path of the bot. 
+◦ I used to give input to bot via bluetooth module and then made the bot go on a definite path with leds of various colour lit at various times ◦For Reference:-Light painting Using Image Processing 
+February 2016 Interactive interface for a Photo-booth using Microsoft KINECT and image process- ing on Processing 
+March 2016 ◦ The aim of the project was to make a interactive photo-booth that makes different types of virtual background according to your body shape and position . 
+◦ Microsoft Xbox Kinect was used to track the body position and movements and then processed using Processing ◦ Then finally background was projected using a projector. ◦For Reference:-Mockingjay: Kinect Projector mailto:abhimanyu.uec2015@iitr.ac.in https://www.youtube.com/watch?v=XNK9ZArt27k https://www.youtube.com/watch?v=v50gASFv5Kw 
+april 2016 General Curve Navigation of Differential Drive bot using Bi-Directional Encoders 
+May 2016 and Magnetometer. ◦ The objective was to achieve navigation of a Differential Drive bot based on the polar-coordinate system ◦ Bi-directional Encoders coupled to both the wheels were used to compute the angular velocities for independent wheels and Magnetometer sensor readings were computed for the current orientation of the bot 
+◦ Both the wheel velocities and the orientation data we used for trajectory computation of the bot using Instantaneous Centre of Curvature (ICC) Method July 2016 Design of Dual-layer PCB for sensor data acquisition to micro controller August 2016 
+◦ Developed schematics and layouts for two-layer PCBs for integration of sensors with Arduino-MEGA and Raspberry Pi ◦ Designed symbol and footprint libraries for ICs LTC2309-ADC and MP2307-Buck converter for PCB integration with Raspberry Pi 
+◦ Experience with low power analog circuit design with strong knowledge of PCB transmission line signal integrity and design analysis Oct 2016 Wall following of Mecanum Drive using two Sharp sensors and one Bi-Directional Nov 2016 Encoder and PS2 remote 
+◦ The objective was to achieve navigation of a Mecanum Drive bot based on wall following. ◦ The sharp sensors are used to obtain the orientation and distance from the wall and based on this error, correction are computed using PID. 
+Oct 2016 Wall following of Differential Drive using two Sharp sensors and one Bi-Directional Nov 2016 Encoder ◦ The objective was to achieve navigation of a Differential Drive bot based on wall following. 
+◦ The sharp sensors are used to obtain the orientation and distance from the wall and based on this error, correction are computed using PID. ◦ The Bi-Directional encoder is used to compute the distance travelled by the bot from the reference location, and we have implemented a function to map the distance to speed. 
+Academic Achievements • Secured All India Rank 1234 in JEE-Advance 2015 among 1.3 million students across the country 
+• Secured All India Rank 5163 in JEE-Mains 2015 • Secured 776 in Prestigeous Kishore Vaigyanik Protsahan Yojana (KVPY) 2015 
+• Reached national stage for National science examination - Physics, conducted by HBCSE (Homi Bhabha Center for Science Education) in 2015 . • Recieved best execution award for my Project, Lumire Fonce in Shrishti,the annual hobbies club exhibition of IITR in 2016. 
+Technical Skills Languages: C, C++, Java, Python, MIPS Assembly Language, LATEX Software Tools: Matlab, LT Spice, Eagle, Multisim 13.0, Xilinx Design Suite 
+Programming Tools: Arduino, Opencv , Processing, AVR Studio,Qtspim, Android Studio, Visual Studios Courses Taken 
+Curriculum Object Oriented Programming (C++ and Java) , Introduction to Electronics and Communica- tion Engineering, Mathematics-I , Electrodynamics and Optics , ,Digital Logic Design , Data Structures , Semiconductor Devices,Electrical Science, Mathematical Methods ,Quantum Mechanics and Statistical Mechanics ,Electronic Network Theory , Analog Circuits , Signals and System , Computer Architecture and Microprocessors Additional 
+• Machine Learning by Andrew NG.* • Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital by Guillermo Sapiro(Duke University)* 
+* -Online Courses. Extra-Curricular Activities 
+• Member at Team Robocon:- I am in Electronics and control team of Team Robocon,IITR , making the bot for competing in ABU- ROBOCON-INDIA.We make a functioning bot for ABUROBOCON . • Organizer Thomso’15:-Worked for Promotions, Hospitality and Travel team for Annual Cultural Fest of IITR in 2015. 
+• Social Work:-Attended and volunteered in various Blood Donation Camps. 
+Interests Education Academic Research and Experience Academic Achievements Technical Skills Courses Taken Extra-Curricular Activities 

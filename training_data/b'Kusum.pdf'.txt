@@ -1,0 +1,73 @@
+Kusum Ramfal Ram                                              kusumr2401@gmail.com           Mobile: +91-8976814203             
+SUMMARY  
+➢  2.3years experience in IT Industry as a Business Intelligence and Database Developer worked on  SpagoBI(BI Reporting Tool), PostgreSql, Oracle, phppgadmin, SQL server Management, MS  
+Access and Mysql.  ➢ Good perception of Object Oriented Programming concepts.  
+➢ Expertise in Database Design and creation, Functions, Procedures, Views, Materialized View and  Triggers Procedure using Framework such as aqua data Studio 5.6.0 .  
+➢ Expertise in designing chart(Bar, Pie, Line, Gauge Meter, Table, Cross tab), worked on SpagoBI  Tool(BIRT, Highcharts, D3 charts) with Java Scripts and complex database queries, SSRS  
+(Table, Matrix), TALENT to schedule jobs.  ➢ Expertise in designing Jasper Reports, worked on iReport version 3.6.0 and 5.6.0  
+➢ Expertise in creation of transformation and JOB in SPOON  ➢ Worked on QGIS (Quantum Geographical Information  System)  
+➢ Ability to Learn in a fast paced environment and a team person to the core.  ➢ Ability to switch back and forth between different projects quickly and efficiently.  
+➢ Experienced in working in a team as well as individually in development project.  ➢ Having an experience of Client interaction for Requirement Gathering  
+➢ Posses excellent Presentation, interpersonal skills with a strong desire to achieve specified goals.  ➢ Involved in all phase of database development, from needs assessment to QA/QC design.  
+➢ Involved in testing of application.  ➢ Involved in Trouble Shooting Work Flow related error.  
+➢ Ability to work in team by communicating effectively at all levels of the development   process and also independently.  
+EXPERIENCE   
+➢ Worked as a Trainee Database Developer for Verchaska Infotech, Vashi,  Navi Mumbai   from March 2015 to April 2016.  ➢ Worked as a Database Administrator for SAAR IT Resources, Goregoan West, Mumbai from  April  2016 to October 2016.  
+➢ Working as a BI Consultant for Squareone Insights, Nahur, Mumbai from October 2016 to till  date.  
+CERTIFICATION                         
+➢ Oracle Certified Professional In Java Programming(Scored – 96%)  
+EDUCATION                                 
+➢ Bachelor of Computer Engineering from MGM College of Engineering, Mumbai, Maharashtra  (2010-2014) with 61.49%  
+➢ Higher Secondary certificate(HSC) from Kendriya Vidyalaya, WCL New Majri, CBCE Board  (2010) With 69%  
+➢ Secondary School Leaving Certificates(SSC) from Kendriya Vidyalaya, WCL New Majri,  CBCE Board (2008) With 82.4%  
+PROFESSIONAL SKILLS  
+➢ DATABASE      :  Postgresql, SQL,  Oracle, Mysql, Ms Access,   ➢ FRAMEWORK   : Aqua Data Studio, pgadmin  
+phppgadmin, Sql Server Management               ➢ WEB DEVELOPMENT  : HTML, XML  
+➢ LANGUAGE   : Java Script, Core Java, C, C++, VB  ➢  IDE    : Eclipse  
+➢ OPERATING SYSTEM  : Linux, Windows XP, Windows 7,8, 10  ➢ DESIGN & Reporting TOOL :   SpagoBI, iReport, SPOON, Eclipse Kepler, SQL Server  
+                                                                    Data Tool, Talend                        ➢ DATABASE COMPARE TOOL :  DBSOLO  
+PROJECT EXPERIENCE  Organization : Verchaska Pvt Limited  
+Clients: Classic, Dnata, Equino, zest   
+Domain  : Travel  Environment  : Linux  Database  : SQL, Postgres  
+Frameworks  : Aqua Data Studio  Tools   :  Eclipse Kepler  Duration   :          1 year  
+Role   : Database Developer  Team Size  : 3  
+Description:  
+ All above clients are online travel agent that offers you a one stop travel shop for cheap  flight bookings, online hotel reservations, holidays & package tours, car rentals, train ticket booking, bus  
+tickets, cruises & more. It helps to find cheapest air ticket bookings on all Indian & International Airlines  flight deals. It is the best product which can give lot of facilities like adding additional services in  
+Shopping Cart which is one of the first to introduce this facility till the date.   
+Responsibilities:  ➢➢  Used postgresql to develop Function, Procedure, Views and Triggers.   
+➢➢  Involved in report creation using iReport with interactive UI.  ➢➢  Involved in Hotel data dump from supplier by creating Transformation and Job in SPOON.  
+➢➢  Developing various server side validations and Client side validations.  ➢➢  Involved in development for Hotel & Air modules.  
+➢➢  Involved in unit testing  
+http://www.ezeego1.co.in/flights/ http://www.ezeego1.co.in/flights/ http://www.ezeego1.co.in/hotels/ http://www.ezeego1.co.in/holidays/ http://www.ezeego1.co.in/cars/ http://www.ezeego1.co.in/rails/ http://www.ezeego1.co.in/bus/ http://www.ezeego1.co.in/bus/ http://www.ezeego1.co.in/cruise/ http://www.ezeego1.co.in/flights/ 
+Organisation: SAAR IT Resources  Clients: Navi Mumbai Municipal Corporation (NMMC)  
+Domain  : Account, Property, Water  Environment  : Windows 7  Database  : Postgres  Tools   :  Spago BI  
+Duration   :           5 Month  Role   : Team lead with development  Team Size  : 3  
+Description:  The Navi Mumbai Municipal Corporation is the municipal organisation of Navi Mumbai, Maharashtra.  NMMC having 3 departments Account, Property, Water.To retrieve, analyze, transform and report their  
+huge data in attractive and easy to grab charts for business intelligence. The tool generally read data  that have been previously stored, for that we have used Materialized view which help in fast accessing  huge data.  
+Responsibilities:  ➢➢  Used postgresql database for whole development.   
+➢➢  As the data is very heavy so we use Materialized View to store data as it stores data  physically and help in fast access in BI tool then View.  
+➢➢  Created around 50 Highchart, dashboard, report, bar chart, pie chart, line charts.  ➢➢  Drill down charts with attractive representation.   
+➢➢  Passes multiple parameters between two charts.  ➢➢  uses cascading parameters.  
+Clients: BMC ,PMC  
+Description:   Brihanmumbai Municipal Corporation and Pune Municipal Corporation both are Government  client having Tree Census project in which they keep records of different species and their count in  
+Mumbai and Pune respectively.  
+Responsibilities:  ➢➢  Used Postgresql  with Postgis which is used to represent geographical reprentation of trees  
+in geometry data type.  ➢➢  Import and export of shape file into postgresql database.  
+Organisation: SquareOne Insights  Clients: Bajaj Electricals, Pidilite  
+Domain  : Business Intelligence  Environment  : Windows  Database  : Oracle, SQL, Postgresql  
+Tools     : spagoBI  Duration   :           10 Month  Role   : BI Developer  
+Team Size  : 3 to 5  
+Description:   Bajaj Electricals provides solutions for architectural lighting, commercial & residential lighting, fans,  consumer durable products.  
+Bajaj Electricals required dashboard to derive their Sales KPI on yearly, half yearly, quarterly, weekly  and daily basis. We created a dashboard that would allow 100-150 Country Head, Territory Head, region  
+Head, distributors to have quick look on their KPI and can take better decision to enhance their  performance and sales. For all KPI we have created visualize charts and at lowest level drill we have  given a detail analysis in tabular chart on daily basis. We have given a trend analysis of distributors sales  
+on yearly, half yearly, monthly, weekly basis.  
+Responsibilities:  ➢➢  Involve in business Intelligence requirement gathering.  
+➢➢  Created BIRT charts (Bar, pie, Tabular reports) and highchart to represent their ALL KPI.  ➢➢  Involved in all database logical activity (creating dataset using oracle db).  
+➢➢  Unit testing & UAT.  
+Pidilite Industries Limited is Indian-based adhesives manufacturing company. It also sells art material,  construction chemicals and other industrial chemicals.  Pidilite required dashboard to derive their sales force on a daily basis. We created dashboard that would  allow 75-100 TSI’s to have a quick look at his score based on his sales achievement and allow him to drill  down to the lowest level of dealers that have contributed to his sales. We also created a ranking  Dashboard so that each TSI in the cluster would be able to know the position at which he is compared  to  his fellow TSI’s allowing him incentives and therefore driving his productivity further. The dashboard also  provides the details about the dealers billed and the daily visits the TSI need to make.  
+Responsibilities:  ➢➢  Created D3 charts (Gauge Meter).  
+➢➢  Created BIRT to represent their score card.  ➢➢  Involve in change meeting.  
+PERSONAL PROFILE  r  ➢➢  Date of Birth  : 15 June 1992  
+➢➢  Gender   : Female  ➢➢  Marital Status  : Single  
+➢➢  Language Known : English, Hindi, Marathi  ➢➢  Nationality  : Indian  

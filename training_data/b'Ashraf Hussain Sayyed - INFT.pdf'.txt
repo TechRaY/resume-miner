@@ -1,0 +1,24 @@
+Sayyed Ashraf Hussain  F-Sector, Q-1 Line, Room No.01,  Cheeta Camp, Trombay,  Mumbai - 400088.  8689930341/9769009582.  s.ashraf002@gmail.com  
+Objective  A career that is challenging and interesting. A job that gives me opportunities to work at the leading edge                    of technology, to learn, to innovate.  Academic Chronicles  
+Stage Percentage Institute University Year Of Passing  B.E. I.T.  9.093(CGPA till  Sem-6)  
+Vivekanand Education  Society’s  Institute of Technology.  
+University Of  Mumbai  2018  
+Diploma  In  Computer  Engineering  
+87.56% M.H.Saboo Siddik  Polytechnic  Byculla, Mumbai.  
+MSBTE 2015  SSC 89.82% Ideal High school &  Jr.College.  
+Maharashtra  Board  2012  
+Technical Skills   ● Programming Languages:  C, C++, Java.  
+● Web Technology:  HTML5, CSS3, Javascript, JSON, AJAX, Bootstrap.  ● DataBase:   MySQL, SQL Server 2008 R2.  
+● Softwares:  XAMPP, WEKA, SQL Server Business Intelligence Tool.   
+Projects  ● GPS And GSM Based Vehicle Tracking System with Ignition Control and Theft Alarm with               police notification​ (​Year-2017)  ○ Team Size:​ 4.  ○ Major components used:​ Microcontroller(​16F877A​), ​GPS module, GSM modem.   ○ Technologies used:​ Embedded C, Android.  ○ Secured 3rd prize in Intra-college’s competition ​Looking Beyond Syllabus​.  
+● Content Management System  ​(June 2017, Current)  ○ Technologies used:​  Laravel 5.4, Bootstrap, SQL Server, XAMPP, MS Excel, .   ○ CMS for our college VESIT.  ○ Automation of Attendance System for both student and staff, Event Management, Many             manual operations done by faculty, clerks such as information retrieving of students and              and other staff members, different application processing such as bonafide, transcripts,            clearance etc.   
+○ Role: Database designing, data feeding, database handling for large amount of dataset             for college. Coordinating with other groups too.   
+● yourride.com (Mini Project) ​ (February 2017- May 2017)  ○ Team Size: ​3  ○ Technologies used:​ HTML5, CSS3, AJAX, PHP, XAMPP.  ○ Tools:  ​Google Analytics, Google AdWords.  ○ Hosted on 000webhost.com  ○ Front End Designing, Database work.  
+Other Activities  ● Participation Certificate from ​Smart India Hackathon (SIH) for submitting idea on problem             statement “Location and Availability of  ITI and Skill Training Centres with Quality Rating”.  
+● Attended two days workshop on ​IoT​.  ● Member of a NGO known as “​Kotak Education Foundation​”. Organised and hosted their event               called ​Kotak In search Of Excellence (KISE) ​for 2 years.  
+ ​Personal Profile  Personal Skill  Good written communication skill, Willingness to learn.  
+Date of Birth 31/01/1997.  Language  Proficiency  
+English, Hindi, Urdu.   Hobbies  Playing Cricket, Reading Quora.  
+Experience Fresher.  
+References  Mrs. Pooja Shetty   Assistant Professor,VESIT  9920429866  pooja.shetty@ves.ac.in  
+Mrs. Vidya Pujari  Assistant Professor,VESIT  9821964977  vidya.pujari@ves.ac.in  mailto:pooja.shetty@ves.ac.in 

@@ -1,0 +1,26 @@
+Ankita Yashavant Dharne  
+Address: 301, Morya C.H.S., Agaskar Tekdi, Kulgaon, Badlapur(E)-421503  Mobile  : 9975385556   Email   : ankitadharne30@gmail.com   Objective 
+To be a part of growth oriented organization and obtain high level of excellence. To utilize  myself as a resource for achieving goals by upgrading my knowledge and skills from time  to time.    Educational Qualification  
+Year Examination Institute University/ Board Marks/ SGPA  2017 B.E. 3rd year V.E.S.I.T, Chembur University of Mumbai 9.34  
+2016 B.E. 2nd year V.E.S.I.T, Chembur University of Mumbai 8.54  2015 B.E. 1st year V.E.S.I.T, Chembur University of Mumbai 8.28  
+2014 H.S.C.  C.H.M. College,  Ulhasnagar  Maharashtra Board 88.00%  
+2012 S.S.C.  A.V.M. School,  Badlapur  Maharashtra Board 94.36%  
+Project Experience 
+● Sports Event Management Website (2017)  A responsive website for managing sports events held in college was designed and              hosted. This website provided the schedule of the upcoming matches and the             result of previous matches. The data can be updated through admin portal after              each match. Led a team of 4 and hosted the website successfully.  Technologies used:​ ​MySQL, PHP, javascript, AJAX, HTML5, CSS3  
+● Foodpop website for Food Recipes (2017)  A blogging website was developed for sharing traditional food recipes. The recipes             can be uploaded and edited from user login. Only recipes approved by admin are               displayed in search. Successfully led a team of 6 members.  Technologies used:​ ​MySQL, PHP, javascript, HTML, CSS  
+● Library Database Management System (2016)  Developed a website for college library database. The information and number            copies of books available are displayed on the website. The admin can increase or               decrease the number of copies whenever a book is returned or issued from the               library.  Technologies used:​ ​MySQL, PHP, javascript, HTML, CSS  
+● Employee Records Management System (2016)  Project internship on Java(OCJP) conducted from June 2016 to July 2016. The             database for employee records can be stored and manipulated as per the             requirement of organization.   Technologies used:​ ​MySQL, JDBC  
+● Intense Fit Website (2016)  Designed and hosted an informative fitness website using website creation tool in             two days. Led a team of 3 members.  Technologies used: ​Wordpress  
+ Technical Expertise 
+● Programming Skills : Java, C, PHP  ● Database Skills  :  Microsoft SQL, MySQL, JDBC  ● Technologies : HTML5, CSS3, Javascript  ● Concepts :  Java, Data Structures, DBMS  
+ Co-Curricular Activities 
+● OCPJP trained in 2016  ● Participated in Web-a-Thon and completed Structured Wordpress Blogging course  ● Attended workshop for PHP-MySQL database connectivity in 2016  
+ Extra-Curricular Activities 
+● 2nd Winner in Carrom- Indoor Sports Competition ‘Sphurti 2016’ in VESIT  ● Assistant Event Head in Technical Festival Praxis’16  ● Sports In-charge of class during year 2016-17  ● Active participation at the Cleanup Drive organized by SoRT in 2015  
+ Personal Skills 
+● Good compatibility with teammates and always willing to learn  ● Ability to take balanced decisions  ● Self-motivated, optimistic and highly adaptable  
+ Personal Details 
+● Date of Birth: ​30​th​ September 1996  ● Languages Known: ​English, Marathi, Hindi  ● Hobbies: ​Playing Carrom, Reading, Listening to Music  
+ References  
+Mrs. Vidya Pujari Mrs. Pooja Shetty  M.E. in Computer Engineering M.E. in Information Technology  Assistant Professor, V.E.S.I.T. Assistant Professor, V.E.S.I.T.  Email: ​vidya.pujari@ves.ac.in Email: ​pooja.shetty@ves.ac.in  Contact No: +91 9821964977 Contact No: +91 9920429866  
+mailto:vidya.pujari@ves.ac.in mailto:pooja.shetty@ves.ac.in 

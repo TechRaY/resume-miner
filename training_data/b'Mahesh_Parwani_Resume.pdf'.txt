@@ -1,0 +1,18 @@
+Mahesh_Parwani Mahesh S. Parwani Contact No: +91- 8976911969 Address: - 102, C-2, Navrang CHS, Near Email Id – umeshparwani228@gmail.com Shahad station, Kalyan(W), 421103. LinkedIn Profile: www.linkedin.com/in/mahesh-parwani 
+Objective Dedicated and self-motivated professional seeking excellence as a software developer that contributes towards national, organizational as well as personal growth while being innovative and flexible. 
+Educational Qualification Vivekanand Education Society Institute of Technology, Mumbai July 2014 - June 2018 Bachelor of Engineering (Information Technology) CGPI - 8.00/10. 
+Work Experience Media.net Software Services (India) Pvt. Ltd April 2020 onwards Database Developer (Mumbai)  Building scalable ETL pipelines to cater to the needs of various data-intensive applications.  Optimizing and redesigning the data pipelines to improve serving times of native ads.  Optimizing database designs to improve data ingestion times and read times.  Monitoring systems built on Apache Kafka and Spark for real-time processing of streamed 
+data. Capiot Softwares Pvt Ltd. Feb 2019 - April 2020 Associate Consultant (Mumbai)  Developed a highly customized Corporate to Bank (C2B) payment system that allowed banks 
+to make their vendor transactions with high efficiency, robustness, without any manual intervention, major users are YesBank and Axis Bank.  Built highly scalable APIs using GoLang and Java.  Built containerized apps using docker, employed Kubernetes for automated docker 
+orchestration. Internships 
+Praqtise.com - An Ed-Tech Startup June 2016 - July 2016 Front-end Developer  Designed the advanced gamified User friendly Interface for Praqtise.com web app.  Involved in discussing ideas and implementation approaches with the developer teams to make our system user friendly. 
+mailto:umeshparwani228@gmail.com 
+Mahesh_Parwani Beaconstalk- India’s largest Proximity Network April 2016 – May 2016 Database Programmer  Designed Database of the acquired data and Build the User Interface for Editing, Deleting, 
+Sorting the data records using Bootstrap Datatables. Pulse-Edu Concepts Dec 2015 - Feb 2016 Math-Content Writer  Designed more than 750 new Quantitative and Logical aptitude questions/answers later 
+uploaded on the website Praqtise.com, currently used by CAT/XAT aspirants for preparation.  Categorizing aptitude question, deciding the complexity of the aptitude question. Technical Skills 
+ Programming Languages : Java, C, C++, GoLang.  Database : MySQL, Oracle-SQL-Plus, MS-SQL, Mongo DB, Redis  Apache frameworks : Kafka, Spark, Hive, HBase. Achievements 
+ HackerRank (Competitive Programming Platform): Medals: 1 Gold, 2 Silver 1 Bronze Current Rank: 3846( out of 7 lakh members )  CodeChef (Competitive Programming Platform): 3-star candidate, won scholarship on certification exam fees, for securing a global rank of 720 in monthly contests. 
+ Secured 1st place in Intra Collegiate Coding Competition ‘TechTrix’, Organized by ISTE-VESIT. (2017).  TCS CodeVita 2017 (Global level Coding Competition organized by TCS) Round 1 Rank: 912/ 2 lakh participants Round 2 Rank: 365 (out of top 4000) 
+Certifications  Redis for Java Developers - Redis Labs university (Oct 2020).  Problem Solving Skills - HackerRank (Sep 2020).  Data Structure and Algorithms - CodeChef community (Jan 2019).  Oracle Database 12c certification (Feb 2018).  Oracle Java Certification(OCJA) (Dec 2017). 
+Personal Strengths  Possess excellent interpersonal traits with the capability of solving problems through reasoned thought processes. 
+ Ability to learn quickly.  Passionate towards coding.  Regular, responsible and dedicated towards every task. 

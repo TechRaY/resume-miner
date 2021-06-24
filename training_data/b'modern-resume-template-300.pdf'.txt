@@ -1,0 +1,12 @@
+KARLA SANTOS Senior Front End Developer CONTACT karlasantos2@gmail.com 
+(123) 456-7890 Brooklyn, NY /in/karla-santos 
+EDUCATION Bachelor of Science Computer Science Rutgers University 
+2008 - 2012 New Brunswick, NJ SKILLS JavaScript (ES6, React, Redux, 
+Node.js) SQL (PostgreSQL, MySQL) Cloud (GCP, AWS) CI/CD 
+Typescript Python (Django) HTML/ CSS 
+CAREER OBJECTIVE Throughout my career as a front end developer I've emphasized the importance of scaleable and well documented code. I enjoy working collaboratively but can also run with projects on my own. Excited about the prospect of joining a product-driven company like Acme Corp. WORK EXPERIENCE 
+Senior Front End Developer Xero January 2017 - current / New York, NY · Worked on the Payments team to save over 50,000 customers time and improve cash flow through the development of modern, responsive customer experiences 
+· Led the migration from AWS to GCP for the team to reduce cloud costs by $260,000 per year · Worked closely with the product team to re-configure the processing of invoices, saving customers over 125,000 manual hours of work per month 
+· Mentored 3 junior front end developers on the team on React and documentation best practices within the organization Front End Developer DTX January 2014 - December 2016 / New York, NY 
+· Contributed to the in-house UI library to create reusable components that saved over 200 hours of development time per month · Created a web app MVP for a store delivery management platform with 100+ business customers to create, manage, and monitor deliveries using React and Redux 
+· Added new features to a meditation app with 5,000+ monthly active users to enable the uploading of audio and video content using React and Redux · Through A/B testing of different components and combinations improved customer conversion rate by 17%, representing $500,000+ in incremental annual revenue 

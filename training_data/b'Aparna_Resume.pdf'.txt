@@ -1,0 +1,36 @@
+Microsoft Word - Aparna Resume.docx 
+1   
+Name : APARNA SINHA  Email : aparnasinha095@gmail.com  Mobile : +91-6291773841  
+C AREER OBJECTIVE  
+Determined to work as a software professional where my skills in applying theoretical knowledge into practical  fields and analytical thinking would aid the organization.  
+PROFESSIONAL SUMMARY   Having 2.5+ years of professional experience in Software Design, Development  
+and Implementation. This involves hands-on development using Java.   Currently working as a “Senior Software Engineer” at “Newgen Software  Technologies”, Mumbai (Product base CMMI level-3)  
+Duration: July 2018 to Present   Internship at “Newgen Software Technologies” , Mumbai as a “Software Engineer - Trainee”  Duration: January 2018 - June 2018  
+ Full stack developer dealing majorly with Java utilities and services.   Have the knowledge and exposure of a complete Software Development Life  Cycle (SDLC) starting from Requirement analysis, design, development, coding,  testing and implementation.  
+ Have developed Socket Utilities for consuming various third party Integrations.   Experience with object-oriented design and modeling in java using J2SE and JavaScript.   Good understanding of Object Oriented Design and Programming (OOP).   Working experience in Banking domain providing Business Process Management (BPM), Enterprise Content  Management (ECM), Customer Communication Management (CCM), Document Management System, Workflow  and Process Automation solutions.  
+ Possess positive attitude towards work, willingness to learn new concepts and  acceptance of challenges.  
+T ECHNICAL SKILLS  
+• Programming Languages  : Java  • Operating System : Windows, Linux  • Web/App Servers : Tomcat, JBoss, Weblogic 12c  • Databases : Oracle 11g, MySQL  • Markup Languages : HTML5, CSS3, JavaScript, XSL  • IDE Software : Eclipse, SVN  • Newgen Product : OmniFlow, OmniDocs, OmniScan, iBPS  • Data Format : JSON, XML  • Tools : SOAP UI, Postman  • Socket Programming  
+2   PROJECT PROFILE  
+Project 1:  
+• Project Name : Loan Origination System (LOS)  • Client : Auxilo Finserve, Mumbai  • TeamSize : 6  • Role : Developer  • Technologies : Java core, Oracle (SQL,PL/SQL), JavaScript, JSF  • Newgen Product : iBPS (Process Modeler, RouteDesign)  • Duration : July 2018 to April 2019  • Description :  LOS is a loan management system for providing loans in various segments including Education Loan,  Educational Institution Loan and School Fees.  
+• Responsibilities:  • Requirement analysis and implementation.  • Implementation of business logic and development in Newgen Product iBPS ,OmniDocs and OmniScan.  • Participating as a team member in all phases of S/W lifecycle, including the analysis and design of S/W systems.  • Developed Process WorkFlow using Newgen BPM solution..  • Developed Socket Utility to Create WorkItem and Generating Templates such as Offer Letter, Credit  Proposal.  • Various form level validations using Java and Javascript.  • Used various Newgen Product APIs for the successful development of the process.  • Developed Socket Programming for consuming various third party Integration such as Verifying User PAN  
+Details , Fetching CIBIL Score and detailed Reports.  
+Project 2:  
+• Project Name : SME and Corporate Loan Originating System (CLOS)  • Client : Equity Bank, Kenya  • Team Size : 9  • Role : Developer  • Technologies : Java core, Oracle(SQL,PL/SQL), JavaScript, JSP  • Newgen Product  : iBPS(Process Modeler, RouteDesign), OmniDocs, OmniScan, MDM, BAM, BRMS  • Duration : May 2019 to Present  
+• Description :  
+Equity Bank Kenya Limited implemented Newgen product suite for automation of SME & Corporate Loan  Origination business process as part of Loan origination system. The automation of these processes reduced  physical documents involvement and reduced movement of physical documents. System capture the information  of Borrower, Guarantor, related parties, proposed exposures and collateral information in form of specific fields  which can be easily used to derive reports and are part of a single workitem. 
+3   
+• Responsibilities:  • Requirement analysis and implementation.  • Implementation of business logic and development in Newgen Product iBPS ,OmniDocs and OmniScan.  • Socket Programming for consuming Third Party Integration including Fetch Customer Details From Finacle,  Fetching Finales Data (Balance Sheet, Cash Generation, Analytical Ratio, Profit and Loss) , Pushing Loan Data  to Finacle for successful disbursement of Loan.  
+• Developed Template Generation and Create Workitem Socket Utility.  • Various Form Level validations using Javascript and Java.  
+ACHIEVEMENTS  
+● International Experience : Travelled onsite (Nairobi, Kenya) for 3 months during UAT for customer support and  development.  ● NCIP (Newgen Certified Implementation Professional)  Level 1 and Level 2 Certified.  ● Received Rising Star Award (Most Promising Newcomer) for outstanding Performance.  ● Received Pat on the Back (POB) award for commendable performance in project.  
+EDUCATIONAL QUALIFICATION  
+• Completed Bachelor of Engineering in Computer Science and Engineering from  Lakshmi Narain College Of Technology, Bhopal in 2018 with an aggregate of  88.3 %.  Examination Institution Board/University Percentage  
+B.E. L.N.C.T. R.G.P.V. 88.3%  XII DAV BSEB, Patna C.B.S.E. 89.6%      X ST. Karen’s  School, Patna  
+C.B.S.E. 95%  
+PERSONAL PROFILE  
+Name                     :  Aparna Sinha  Father’s Name        :  Mr. Shailendra Kumar Sinha  Mother’s Name       :  Mrs. Padmaja Kumari Sinha  Date of Birth           :  26th July 1995  
+DECLARATION  
+I hereby declare that the above given information is true to the best of my knowledge and belief.  
+Date      :    04th June’ 2021       Place      :     Mumbai 

@@ -10,9 +10,16 @@ import sys
 import nltk, re
 import pandas as pd
 import spacy
+import os
 import phonenumbers
 from spacy.matcher import Matcher
 from spacy.matcher import PhraseMatcher
+
+from keras_en_parser_and_analyzer.library.classifiers.lstm import WordVecBidirectionalLstmSoftmax
+from keras_en_parser_and_analyzer.library.utility.parser_rules import *
+from keras_en_parser_and_analyzer.library.utility.simple_data_loader import load_text_label_pairs
+from keras_en_parser_and_analyzer.library.utility.text_fit import fit_text
+from keras_en_parser_and_analyzer.library.utility.tokenizer_utils import word_tokenize
 
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
@@ -20,10 +27,15 @@ nlp = spacy.load('en_core_web_sm')
 # initialize matcher with a vocab
 matcher = Matcher(nlp.vocab)
 
+current_dir = os.path.dirname(__file__)
+current_dir = current_dir if current_dir is not '' else '.'
+
 class Parse():
     inputDF = pd.DataFrame()
     def __init__(self,verbose=False):
         print(" Starting Program ")
+        self.line_label_classifier = WordVecBidirectionalLstmSoftmax()
+        self.line_type_classifier = WordVecBidirectionalLstmSoftmax()
         self.tokenizedDF = self.tokenize(self.readResumeFiles())
 
         for index, text, tokens in self.tokenizedDF.itertuples(): 
@@ -48,10 +60,6 @@ class Parse():
             skills = self.extract_skills(text)
 
             
-
-
-
-
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
@@ -231,6 +239,70 @@ class Parse():
             "skills": skills,
             "qualification": qualification,
         }
+
+    def load_model(self, model_dir_path):
+            self.line_label_classifier.load_model(model_dir_path=os.path.join(model_dir_path, 'line_label'))
+            self.line_type_classifier.load_model(model_dir_path=os.path.join(model_dir_path, 'line_type'))
+
+    def fit(self, training_data_dir_path, model_dir_path, batch_size=None, epochs=None,
+            test_size=None,
+            random_state=None):
+        line_label_history = self.fit_line_label(training_data_dir_path, model_dir_path=model_dir_path,
+                                                    batch_size=batch_size, epochs=epochs, test_size=test_size,
+                                                    random_state=random_state)
+
+        line_type_history = self.fit_line_type(training_data_dir_path, model_dir_path=model_dir_path,
+                                                batch_size=batch_size, epochs=epochs, test_size=test_size,
+                                                random_state=random_state)
+
+        history = [line_label_history, line_type_history]
+        return history
+
+    def fit_line_label(self, training_data_dir_path, model_dir_path, batch_size=None, epochs=None,
+                       test_size=None,
+                       random_state=None):
+        text_data_model = fit_text(training_data_dir_path, label_type='line_label')
+        text_label_pairs = load_text_label_pairs(training_data_dir_path, label_type='line_label')
+
+        if batch_size is None:
+            batch_size = 64
+        if epochs is None:
+            epochs = 20
+        history = self.line_label_classifier.fit(text_data_model=text_data_model,
+                                                 model_dir_path=os.path.join(model_dir_path, 'line_label'),
+                                                 text_label_pairs=text_label_pairs,
+                                                 batch_size=batch_size, epochs=epochs,
+                                                 test_size=test_size,
+                                                 random_state=random_state)
+        return history
+
+    def fit_line_type(self, training_data_dir_path, model_dir_path, batch_size=None, epochs=None,
+                      test_size=None,
+                      random_state=None):
+        text_data_model = fit_text(training_data_dir_path, label_type='line_type')
+        text_label_pairs = load_text_label_pairs(training_data_dir_path, label_type='line_type')
+
+        if batch_size is None:
+            batch_size = 64
+        if epochs is None:
+            epochs = 20
+        history = self.line_label_classifier.fit(text_data_model=text_data_model,
+                                                 model_dir_path=os.path.join(model_dir_path, 'line_type'),
+                                                 text_label_pairs=text_label_pairs,
+                                                 batch_size=batch_size, epochs=epochs,
+                                                 test_size=test_size,
+                                                 random_state=random_state)
+        return history
+
+    def predict(self, paragraphs, print_line=False):
+        self.load_model(current_dir + '/models')
+        for p in paragraphs:
+            if len(p) > 10:
+                line_label = self.line_label_classifier.predict_class(sentence=p)
+                line_type = self.line_type_classifier.predict_class(sentence=p)
+                print("line _label" + line_label + " paragraph " + p)
+
+
 
 if __name__ == "__main__":
     verbose = False
