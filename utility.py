@@ -14,14 +14,18 @@ def create_paragraphs(file_data_content):
             paragraph.append(line)
     if paragraph:
         yield ''.join(paragraph)
-
     return paragraph
 
 def createFileAndWriteParagraphData(paragraphs, fileName):
-    output_file_path = os.path.join("training_data/", str(fileName) + '.txt')
-    if os.path.exists(output_file_path):
-        return
-    with open(output_file_path, 'wt', encoding='utf8') as f:
-        for paragraph in paragraphs:
-            f.write(paragraph)
-            f.write('\n')
+    output_file_path = "trainingData/" + fileName + ".txt" #os.path.join("training_data/", str(fileName) + '.txt')
+    # if os.path.exists(output_file_path):
+    #     return
+    try:
+        with open(output_file_path, 'wt') as file:
+            for paragraph in paragraphs:
+                file.write(paragraph)
+                file.write('\n')
+    except Exception as e:
+        print(e)
+    finally:
+        file.close();

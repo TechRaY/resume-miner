@@ -16,7 +16,7 @@ from spacy.matcher import PhraseMatcher
 
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 # initialize matcher with a vocab
 matcher = Matcher(nlp.vocab)
 
@@ -47,6 +47,11 @@ class Parse():
             #handle skills extraction--
             skills = self.extract_skills(text)
 
+            
+
+
+
+
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
@@ -64,7 +69,7 @@ class Parse():
             pass
     def preprocess(self, document):
         df = pd.DataFrame()
-        for indx, row in document.itertuples(name='Frame'): 
+        for indx, row in document.itertuples(name='Frame'):
             sentences = nltk.tokenize.sent_tokenize(row) #split into sentences
             sentences = [nltk.tokenize.word_tokenize(sent) for sent in sentences] #split/tokenize sentences into words
 
@@ -174,7 +179,20 @@ class Parse():
         except:
             return ''
             pass
+    
+    # def extract_university(self, text):
+    #     df = pd.read_csv("resume-miner\data\world_university.csv", header=None)
+    #     universities = [i.lower() for i in df[1]]
+    #     college_name = []
+    #     listex = universities
+    #     listsearch = [text.lower()]
 
+    #     for i in range(len(listex)):
+    #         for ii in range(len(listsearch)):
+    #             if re.findall(listex[i], re.sub(' +', ' ', listsearch[ii])):
+    #                 college_name.append(listex[i])
+        
+    
     def extract_skills(self, text):
         try:
             return ''
@@ -187,6 +205,19 @@ class Parse():
            return ''
         except:
             return ''
+            pass
+    def extract_Something(self, paragraph):
+        try:
+            experience = []
+            skills = []
+            education = []
+            other = []
+
+            
+
+
+
+        except Exception as e:
             pass
 
     def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, qualification):
