@@ -32,6 +32,13 @@ matcher = Matcher(nlp.vocab)
 current_dir = os.path.dirname(__file__)
 current_dir = current_dir if current_dir is not '' else '.'
 
+
+file = open("data\LINKEDIN_SKILLS_ORIGINAL.txt", "r", encoding='utf-8')    
+skill = [line.strip().lower() for line in file]
+skillsmatcher = PhraseMatcher(nlp.vocab)
+patterns = [nlp.make_doc(text) for text in skill if len(nlp.make_doc(text)) < 10]
+skillsmatcher.add("Job title", None, *patterns)
+
 class Parse():
     inputDF = pd.DataFrame()
     def __init__(self,verbose=False):
@@ -233,7 +240,16 @@ class Parse():
     
     def extract_skills(self, text):
         try:
-            return ''
+            skills = []
+            __nlp = nlp(text.lower())
+            # Only run nlp.make_doc to speed things up
+
+            matches = skillsmatcher(__nlp)
+            for match_id, start, end in matches:
+                span = __nlp[start:end]
+                skills.append(span.text)
+            skills = list(set(skills))
+            return skills
         except:
             return ''
             pass
