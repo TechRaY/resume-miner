@@ -8,11 +8,12 @@ Created on Sat Jun 19 08:00:41 2021
 import pandas as pd
 from tika import parser
 import glob
+import time
 
 
 def convert_pdf_to_text():
     
-    resume_files = glob.glob("resume-miner\Resumes\*.pdf")
+    resume_files = glob.glob(r'C:\Users\tapan\Documents\Tapan\Tapan_Resume/' + '*.pdf')
     resume_text = []
     for resume in resume_files:
         parsed_file = parser.from_file(resume)
@@ -24,11 +25,11 @@ def convert_pdf_to_text():
     
 
 
-#if __name__ == "__main__":
- #   start_time = time.time()
- #   resume_data_in_text = convert_pdf_to_text()
- #   end_time = time.time()
- #   print("total time for text generation {}".format(end_time-start_time))
+if __name__ == "__main__":
+    start_time = time.time()
+    resume_data_in_text = convert_pdf_to_text()
+    end_time = time.time()
+    print("total time for text generation {}".format(end_time-start_time))
     
     
    

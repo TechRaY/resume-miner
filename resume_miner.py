@@ -9,6 +9,8 @@ from pydoc import doc
 import sys
 import nltk, re
 import pandas as pd
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
 class Parse():
@@ -52,23 +54,23 @@ class Parse():
             pass
     def preprocess(self, document):
         df = pd.DataFrame()
+        lemmatizer = WordNetLemmatizer()
         for indx, row in document.itertuples(name='Frame'): 
             sentences = nltk.tokenize.sent_tokenize(row) #split into sentences
             sentences = [nltk.tokenize.word_tokenize(sent) for sent in sentences] #split/tokenize sentences into words
-
             tokens = sentences
             finalTokenList = []
             for token in tokens:
                 finalTokenList += token
-            
             tokens = finalTokenList
-
+            tokens = [lemmatizer.lemmatize(word) for word in tokens if word not in set(stopwords.words('english'))]
+            
             df = df.append(pd.DataFrame(
                     [[row, tokens]], 
                     columns = ['parsedText','tokens']),
                     ignore_index=True
                 )
-
+            
         return df
 
     def tokenize(self, inputDF):
