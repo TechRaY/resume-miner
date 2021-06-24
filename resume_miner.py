@@ -17,6 +17,7 @@ from spacy.matcher import PhraseMatcher
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
 nlp = spacy.load('en_core_web_lg')
+print(nlp("23-02-2021").ents)
 # initialize matcher with a vocab
 matcher = Matcher(nlp.vocab)
 
@@ -47,10 +48,13 @@ class Parse():
             #handle skills extraction--
             skills = self.extract_skills(text)
 
+            #handle universities extraction--
+            university = self.extract_university(text)
+
             #handle qualification extraction--
             qualification = self.extract_qualification(text)
 
-            extractedInfo = self.getInfo("fileName " + str(index), name, email, linkedin, phone, experience, skills, qualification) # TODO -> move this to util
+            extractedInfo = self.getInfo("fileName " + str(index), name, email, linkedin, phone, experience, skills, university, qualification) # TODO -> move this to util
             
             print(extractedInfo) #TODO -> remove this  print
         
@@ -170,7 +174,17 @@ class Parse():
         
     def extract_experience(self, text):
         try:
-           return ''
+            nlp_text = nlp(text)
+            
+            pattern = [{'POS': 'PROPN'}, {'POS': 'PROPN'}]
+            matcher.add('NAME', None, pattern)
+
+            matches = matcher(nlp_text)
+
+            for match_id, start, end in matches:
+                span = nlp_text[start:end]
+                return span.text
+            return ""
         except:
             return ''
             pass
@@ -189,7 +203,22 @@ class Parse():
             return ''
             pass
 
-    def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, qualification):
+    def extract_university(self, text):
+        df = pd.read_csv("data\world-universities.csv", header=None)
+        universities = [i.lower() for i in df[1]]
+        college_name = []
+        listex = universities
+        listsearch = [text.lower()]
+
+        for i in range(len(listex)):
+            for ii in range(len(listsearch)):
+                
+                if re.findall(listex[i], re.sub(' +', ' ', listsearch[ii])):
+                    college_name.append(listex[i])
+        
+        return college_name   
+
+    def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, university, qualification):
         return {
             "file": fileName,
             "name": name,
@@ -198,6 +227,7 @@ class Parse():
             "phone": phone,
             "experience": experience,
             "skills": skills,
+            "university": university,
             "qualification": qualification,
         }
 
