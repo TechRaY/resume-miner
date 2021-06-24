@@ -1,0 +1,13 @@
+Prashant sahu  Assistant System Engineer sahuprashant03@gmail.com 8982576338 
+Prashant-sahu Profile 
+Experienced Application Developer with a demonstrated history of working in the IT industry. Skilled in core  Java, Spring boot, Spring Cloud, Microservices, and Docker. I want to work in an organization where I can  acquire new knowledge, sharpen my skills and put my efforts into achieving organization goals. Skills 
+Frontend HTML5, CSS3 and JavaScript DataStores PostGreSQL, MySQL 
+Backend Core Java, SpringBoot, Microservices, JPA Others Docker, AWS ECS, Git-Lab, PostMan, Soup-UI 
+Professional Experience Assistant System Engineer, TATA Consultancy Services Ltd. Exposure to Java programming language with “General Insurance” domain  knowledge. Good understanding of the Insurance sector and its related terms. Has been awarded for Best performer in the team. Stack used: Core Java, SpringBoot, Microservices, PostgreSQL, Docker, GitLab. 
+06/2019 – present Pune, India Projects 
+Digital Transformation of BAGIC, Health and Travel Insurance Currently, I am part of the development team for Channel and B2B services. Developed many Payment and claims-related services for Health LOB. Worked as Requirement Analyst for B2B services. Also having experience of working in Production Support Team. Good at  debugging and resolving issues in Non-Prod and Production environments. Proficient in handling clients and Application Owners. Currently working in  client’s location. Technologies used: Java, SpringBoot, Microservice, Docker, PostgreSQL, GitLab  and AWS ECS. 06/2019 – present 
+Education B.E. (Electronics and communication), Lakshmi Narain College of Technology Aggregate: 7.56 CGPA 
+Bhopal, India mailto:sahuprashant03@gmail.com tel:8982576338 https://www.linkedin.com/in/prashant-sahu-27114b154/ 
+Certificates Completed “Microservices and  Spring boot Framework”  certificate on Udemy. 
+Undergone various TCS  internal level training for  Insurance domain. Awards 
+On the Spot Award, Awarded for performing well as a "Requirement Analyst". 

@@ -1,0 +1,20 @@
+Devesh Chandak Student Head at PICT Training and Placement Cell dschandak@gmail.com 7972663093 
+EDUCATION Bachelor of Engineering Pune Institute of Computer Technology 06/2017 - Present,  
+Information Technology WORK EXPERIENCE 
+Application development intern QCT Energy Pvt Ltd. 07/2019 - 09/2019, Pune QCT is an IoT solutions company which specializes in heating appliances. We built a Cloud-based application to upload and fetch data to/from cloud that collected data from remote IoT devices with the help of Arduino and AWS RDS, EC2. 
+App building College placement portal for PICT 11/2019 - Present, Pune We used React JS, spring boot and postgres to build an indoor placement module. It is an effort to automate the process of communication between students and companies to reduce manual errors and speed up the process 
+Web Development PICT CSI Event website 11/2018 - 01/2019, Pune CSI is a student group at PICT It was a website for the annual technical event of PCSB aimed at the communication of announcements an details. Used Bootstrap, CSS, Javascript. 
+LEADERSHIP ROLES Student head at PICT Training and Placement Cell  (07/2020 - Present) We successfully completed recruitment drives for more than 85 companies and placed more than 550 students till Feb end under guidance of Dr. Satish Narkhede Overall Coordinator at PICT CSI student branch  (05/2019 - 05/2020) Organized 3 major events and 13 side events and seminars with a headcount of more than 250 people. 
+SKILLS C++ (well used) MySQL(well used) HTML5 (advance) Bootstrap (well used) 
+Postgre SQL AWS (beginner) PERSONAL PROJECTS Placement Module for college (11/2019 - Present)   
+PICT Placement module using Reactjs for frontend and Spring boot, postgresql for backend (in team of 5) MoneyMize - money management application  (08/2019 - 09/2019) 
+A web and android application for indivisual and group money management system using Bootstrap, Mysql, and Apache cordova Annual Tech event website - Enthusia  (11/2018 - 01/2019)   
+Built an event website using Bootstrap, HTML, CSS CERTIFICATES AWS Certified Solutions Architect - Associate 2020 course completion (05/2020 - Present)   
+Problem Solving (Basic) Certificate (06/2020 - Present) Competitive Coding proficiency certificate offered by Hackerrank 
+QUALITIES Leadership skills Communication skills 
+Decision-making Team player 
+Delegation INTERESTS 
+Swimming, Badminton Tech Gadgets I also have keen interest in cloud technology and I am currently preparing for AWS solutions architect associate certification examination 
+Courses Achievements/Tasks 
+Achievements/Tasks Achievements/Tasks 
+mailto:dschandak@gmail.com https://linkedin.com/in/devesh-chandak-32560752 https://placement-frontend.herokuapp.com/ https://www.udemy.com/certificate/UC-c672fecd-a6d2-43c2-beac-7b71d93e7875/ https://www.hackerrank.com/certificates/1a4ce34cb2aa 

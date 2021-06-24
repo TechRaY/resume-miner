@@ -1,0 +1,29 @@
+CHAITANYA KANDHARE chaitanya.kandhare.jobi d@gmail.com 
+966 434 7302 Pune, MH 4011057 
+Creative Consultant offering 5.4 years of experience in Banking and Insurance domain. Seeking to use proven Big Data and Aanlytical skills to improve quality, cost and time. More than 3 year of experience with Big Data Technologies using Hadoop eco System tools and technologies like Spark (Spark SQL), HDFS, Hive, Sqoop, YARN, Oozie etc. Working in Agile environment as aspiring Data Engineer. PROFESSIONAL SUMMARY 
+Capgemini - Consultant Pune, Maharashtra • 12/2019 - Current Environment and Tools used: Hadoop 2, HDFS, Hive, Sqoop, Oozie, Spark, Spark SQL, Git, Agile, Linux. 
+Infosys - Senior System Software Engineer Pune, Maharashtra • 10/2015 - 12/2019 WORK HISTORY 
+Developed data processing applications to ingest, curate and distribute data from Hadoop Datalake using Agile methodologies (SCRUM/Kanban). • 
+Built table data models with adherence to existing application architecture. • 
+Built data pipelines to ingest data in Hive from Text, Mainframe, JSON files and export data into Data Warehouse like Teradata. • 
+Created SQL queries to implement Data Warehousing techniques like CDC, SCD in Hive. • 
+Used Apache Spark (Python PySpark scripts) effectively in project for data transformation and ETL operations. • 
+· Implemented optimization techniques like Compression (Avro, ORC and Snappy), Compaction, and Partitions etc. to improve Hive query performance. • 
+Used BitBucket (GitBash, Git Extentions) for version control, TeamCity to promote and build configuration for deployment. • 
+Scheduled IBM Tivoli scheduler jobs, provided maintenance and support to applications. • 
+NMIMS Mumbai • Expected in 12/2021 MBA: Business Analytics 
+YCP - CDAC Mumbai • 06/2015 Post-Graduation Diploma: Advance Computing 
+Lokmanya Tilak College Of Enginnering Navi Mumbai • 07/2014 Bachelor of Engineering: Electronics And Telecommunication 
+SKILLS Spark (SQL)• HDFS• Hive• Sqoop• Agile• Shell Scripting• 
+EDUCATION 
+Vidyalankar Polytechnic Wadala, Mumbai • 06/2011 Diploma: Electronics And Telecommunication 
+CERTIFICATIONS Big Data Hadoop developer (Edupristine) 
+• Big data with Apache Spark and Python (Udemy) 
+• Oracle 11g: SQL Fundamentals (Oracle) 
+• Environment and Tools used: Hadoop 2, HDFS, Hive, Sqoop, Oozie, Spark, Spark SQL, Oracle 11g, Linux 
+Migration from variety of data sources and RDBMS to HDFS in entity batches. • 
+Designed hive External and Internal tables, load data, writing hive queries and Implemented Dynamic Partitions and Bucketing in HIVE. • 
+Building data analytical solutions using Spark and Spark SQL, for handling Big data generated during numerous financial operations. Analyzing huge log files and storing analyzed output into Data frames/Hive Tables. • 
+Automation using Shell scripting for daily Incremental import/export. • 
+Creating different types of Reports as per requirements from client. • 
+Involved in performance monitoring, tuning and Managing Database structure, storage allocation of database. • 

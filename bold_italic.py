@@ -4,24 +4,36 @@ from docx import *
 path_input = 'pdf/'
 path_output = 'doc/'
 
-## To extract bold and italic texts from docx
-file_bold_italic = {}
-for file in os.listdir(path_output):
-    print(file)
-    document = Document(path_output+file)
-    bolds=[]
-    italics=[]
-    boltalic={}
-    for para in document.paragraphs:
-        #print(para)
-        for run in para.runs:
-            if run.italic :
-                italics.append(run.text)
-            if run.bold :
-                bolds.append(run.text)
+## To extract bold and italic texts from all docx files
 
-    boltalic={'bold':bolds,
-              'italic':italics}
-    file_bold_italic[file] = boltalic
+def getFontInfoForFiles():
+    file_bold_italic = {}
+    for file in os.listdir(path_output):
+        print(file)
+        document = Document(path_output+file)
+        bolds=[]
+        italics=[]
+        boltalic={}
+        fonts = {}
+        for para in document.paragraphs:
+            #print(para)
+            for run in para.runs:
+                if run.font.size != None :
+                    fonts[run.text] = run.font.size.pt
+                if run.font.italic :
+                    italics.append(run.text)
+                if run.font.bold :
+                    bolds.append(run.text)
 
-print(file_bold_italic)
+        boltalic={'bold':bolds,
+                'italic':italics, 'fonts' : fonts,'font_info':{}}
+        file_bold_italic[file] = boltalic
+
+    print(file_bold_italic)
+    for file_name, info in file_bold_italic.items():
+        for key, value in info["fonts"].items():
+            if value not in info["font_info"].keys():
+                info["font_info"][value] = [key]
+            else:
+                info["font_info"].get(value).append(key)
+    print(info)

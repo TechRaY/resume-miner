@@ -1,0 +1,22 @@
+Navy Blue and Black Professional Resume 
+E X P E R I E N C E Responsible for the development of a machine learning model to assist an individual in selecting insurance at a minimal cost alongside other 3 team member. Worked on Random Forest Tree, SVM, KNN-Algorithm, Clustering models and Natural Language Processing.         Successful completion of the Insurance Cost Prediction Project using the Random Forest Tree and SVM with up to 85% precision. 
+Knowledge Solutions India, Microsoft Partner - Machine Learning with Artificial Intelligence using Python (Work From Home) MAY 2020 - JUN 2020 Responsible for developing an Android application to maintain the transaction carried out by local people in public toilets. Worked on the Android application module using Kotlin integrated with a Django - REST framework and a MySQL database. 
+Vivekanand Education Society’s Institute Of Technology, Chembur - Android App Development (Kotlin) Intern NOV 2018 - JAN 2020 S K I L L S 
+Dombivli, Thane - 421204 https://www.linkedin.com/in/anike t-gupta-370713186/ 
+Waytoaniketgupta@gmail.com C O N T A C T  M E  A T 
+E D U C A T I O N S T U D E N T 
+ANIKET GUPTA P E R S O N A L  P R O F I L E Currently pursuing my Bachelors in Information Technology, I am a passionate, self-motivated and versatile individual, seeking to work as a Analyst in your company. 
++91 9967925053 
+https://www.hackerrank.com/W aytoaniketgupta B.E. | IT UNIVERSITY OF MUMBAI | VESIT | 2018 - 2022 
+CGPA: 8.25 AVG. HSC | MSBSHSE | MAJOR IN CS G.R.P Jr.College | 2016 – 2018 
+PERCENTAGE: 84.46% SSC | MSBSHSE RJTHS | 2006 - 2016 
+PERCENTAGE: 79.20% Python | C | PHP | JAVA Kotlin | Android Studio  | Flutter 
+Flask | Django HTML | CSS | JS | Bootstrap Machine Learning  | Data Science Natrural Language Processing MySQL Server | Firebase  Internet Of Things 
+A C H I V E M E N T S   Data Structures | Algorithms 
+P R O J E C T S Created a virtual Geofence for accurate movement tracking of COVID patients within hospital. Worked with WIFI module(ESP32) and Machine Learning to achieve up to 75% accuracy. 
+WIFI Indoor Positioning DeepBlue Season 6 @Mastek | Sep 2020 - Currently Working Creation of an application based on a social networking platform allowing students and teachers to interact and display informational content, specially designed for our college. 
+VesTalk - Flutter Edisha | July 2020 - July 2020 Worked on OpenCV Library for Face Detection (Differentiating Human face and object), Face Recognization (Can be used for Security purpose or attendance system in schools/colleges) and Emotion Recognization (can be used as an Emotion AI technology that is capable of reading, imitating, interpreting, and responding to human facial expressions and emotions). 
+FacialCV- OpenCV College Mini Project| Dec 2019 - JAN 2020 Provided time of arrival and all task to be done in the hospital this project aims to predict the total time which the patient would spend in the hospital with an accuracy of 78%. 
+Predict Queue Waiting Time DeepBlue Seasin 5 @Mastek | Sep 2019 - Feb 2020 Public Chat Application (website) using Express-Js where people can chat amongst themselves. 
+Chat Application Using Express-JS Personal Project | Mar 2020 Runner-up in Edisha 2020 competition, Android development hackathon Semi-Finalists at Project DeepBlue Season 5 and Season 6 conducted by Mastek (6 months Hackathon). 
+Winner - Kabaddi in Sphurti'19 https://www.linkedin.com/in/aniket-gupta-370713186/ http://gmail.com/ https://www.hackerrank.com/Waytoaniketgupta 
