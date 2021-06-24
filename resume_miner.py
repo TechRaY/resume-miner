@@ -24,7 +24,7 @@ from keras_en_parser_and_analyzer.library.utility.tokenizer_utils import word_to
 
 from pdf_text_extractor import convert_pdf_to_text # type: ignore
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 # initialize matcher with a vocab
 matcher = Matcher(nlp.vocab)
 

@@ -299,7 +299,6 @@ class WordVecBidirectionalLstmSoftmax(object):
         self.model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
         config_file_path = self.get_config_file_path(model_dir_path)
-        print("reached here")
         self.config = np.load(config_file_path, allow_pickle=True).item()
 
         self.idx2word = self.config['idx2word']
