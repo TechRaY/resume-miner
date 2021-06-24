@@ -1,0 +1,36 @@
+Sumit Mohan  +91 9945 594548 | sumit.a.mohan@gmail.com  
+PROFILE  • Software Developer with 3.4 years of experience in Java/Spring.  
+• Currently working as Consultant (Java) with NDS Global.  • Current hands on experience with Java, JavaScript, Spring (Boot), HTML/CSS, SQL.  
+• Previous Experience in AngularJS, Spring MVC, and MarkitEDM,  • Good knowledge of OOPS, RDBMS, Web Technologies and hands on experience with  
+MSSQL, DB2 and MySQL.  • Have worked in investment banking and logistics domain.  
+TECHNICAL  SKILLS  Languages   :  Java, SQL  
+Frameworks/Libraries :  Spring Core/Boot  Operating Systems  :  Windows, Linux (Ubuntu, CentOS)  
+Database Technologies :  MSSQL, MySQL, DB2  Web Technologies  :  HTML/CSS, REST  
+Environments/Tools  :  IntelliJ IDEA, Eclipse, MarkitEDM, Maven, SVN, Jenkins,   Tomcat, Weblogic, Kofax Kapow, Git     
+Miscellaneous  :  OOPS and UML  Also Familiar With  :  JavaScript, Spring MVC, Drools, AngularJS  
+PROFESSIONAL  EXPERIENCE  1. global– JB Hunt (TMS Enhancements Team) [SEPT ’16 - PRESENT]  
+Consultant Team: 15 Members  Description:  
+ TMS Enhancements team at NDS Global is an extension of the enhancements team at  JB Hunt that works on applications and functionalities across JB Hunt business  
+domains like Marketing, Operations Executions, Load Planning, etc.  Responsibilities:  
+• Taking complete ownership of the task right from Requirement Understanding,  Analysis, Design, Construction, Unit Testing, and Deployment.  
+• Sole developer of the Amazon Adhoc Load application involving Spring Boot, and  Kapow.  
+mailto:sumit.a.mohan@gmail.com 
+• Sole contributor to the changes in the Auto Accept application involving Java, Spring  and Drools.  
+• Understanding and analysis of Java applications that integrate with COBOL Web  Services, writing one time programs to process and backfill data using Spring into the  
+DB2 database.   • Minor functionality changes to JBHunt applications like Freight Manager, Central  
+Customer Information in JSF/Spring.  • Conducting cross training sessions for other team members.  
+• Developing Requirement Understanding, Design, Code Review documents adhering to  the specifications.  
+2. Capgemini – IDMS - UBS Transformation [NOV ’14 – SEPT ‘16]  Software Engineer/ Senior Software Engineer Team: 20 Members  
+Description:   The objective of IDMS Transformation is to build a consolidation of legacy application to  
+master Financial Instrument data, from different vendors, onto a single platform for the  clients- providing cost savings, better quality and consistency of data, risk reduction  and infrastructure simplification.  
+Responsibilities:  • Working as a developer for the UI Team on Core Java, Spring (MVC), AngularJS and  
+MarkitEDM.  • Developing functionalities and enhancements as per the requirements and with co- 
+ordination with different project stakeholders.  • Developing Proof of Concepts for Standard Build Project on Core Java, Spring, and  
+AngularJS.  • Testing issues, bugs and deploying the fixes, designing technical document, KT sessions  
+for members.  
+EDUCATIONAL  QUALIFICATIONS   Bachelor of Engineering - Information Technology (with distinction)  
+Mumbai University (2010-2014)  
+PERSONAL  INFORMATION  Full Name  :  Sumit Somasundaran Mohan  
+Date of Birth  :  17th January, 1993  E-mail Address :  sumit.a.mohan@gmail.com  
+Contact  :  +91 9978 594548  Languages Known :  English, Hindi, Malayalam, Marathi  
+mailto:sumit.a.mohan@gmail.com 

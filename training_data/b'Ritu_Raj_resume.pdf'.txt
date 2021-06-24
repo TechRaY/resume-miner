@@ -1,0 +1,17 @@
+Ritu Raj Data Analyst Analytics professional with 2 years of experience in data analytics, data warehousing in Finance domain.Skilled in Teradata, ETL and data reporting. 
+razzritu4@gmail.com 9006299179 
+Chennai, India linkedin.com/in/ritu-raj-95218727 
+WORK EXPERIENCE ETL Developer Wipro Technologies 06/2019 - Present, Chennai Worked on Queries, Stored Procedures and scripts to handle and validate sales and finance data received in various forms and publish the same to subscribers. 
+Developed and maintained ETL (Data Extraction, Transformation and Loading) mappings to extract the data from multiple source systems that comprise databases like Oracle, SAP BODS, SAP HANA, flat files, JSON to the Staging area, EDW and then to the Data Marts. Documented and analyzed business reports for prompt communication, follow-up and ongoing support. 
+Modified existing software to correct errors, upgrade interfaces and improve performance. Inducted data to EDW to capture KPIs for treasury datasets. 
+Summer Intern NTPC 06/2018 - 07/2018, Kanti Analyzed the strength and working of the Transformers used 
+Reported the key findings to concerned team Research Intern Greycaps India Pvt Ltd. 06/2017 - 07/2017, Bangalore 
+Researched and Curated Science and Technology Quiz questions for National level Quiz EDUCATION B.Tech, Electronics and Communication Engineering National Institute of Technology, Jamshedpur 08/2015 - 05/2019, 8.51 CGPA 
+Senior Secondary SPS +2 School 04/2013 - 05/2015, 75.8 % Senior St. Paul's High School 04/2012, 9.8 CGPA 
+SKILLS SQL TERADATA ORACLE ETL MS EXCEL 
+MS POWERPOINT SNOWFLAKE TABLEAU PERSONAL PROJECTS NSS Website for College 
+ACHIEVEMENTS Converted a top US based Tech client for a full time engagement after working in the pilot phase.  (07/2020 - 09/2020) 2nd Runner up in National Level Tech Quiz 
+LANGUAGES ENGLISH Full Professional Proficiency HINDI Full Professional Proficiency 
+INTERESTS Football Quizzing Movies 
+Achievements/Tasks Achievements/Tasks 
+Achievements/Tasks mailto:razzritu4@gmail.com https://linkedin.com/in/ritu-raj-95218727 

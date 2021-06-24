@@ -1,0 +1,18 @@
+Madhumitha    Email ID: reddymadhuk12@gmail.com                                                 M: +91-8886724844  
+Professional Summary:  • Having 1+ year of experience as Maximo developer, working at Wipro Limited.  
+• Having good experience in Automation Scripting in Maximo.   • Worked on Automation Script, Application Designer, Conditional Expression, Database  
+Configuration, Domain, Views, Relationships.  • Created a Custom Application Time Card and worked extensively.  
+• Worked on Time card, Work Order, Master Over Time modules.  • Created BIRT reports in Maximo for Time Card Application.  
+Professional Experience:  • Working for Wipro Limited, Hyderabad from 2019 to till time as Project Engineer.  
+Technical Skills:  • Scripting Languages : Python, SQL    
+• Operation system      : Windows 2008  • Database        : DB2  
+• Tools        : Maximo v7.5  
+Project 1:  
+• Client  : FedEx Express  • Role  : Maximo Developer  
+• Tools  :  Maximo v7.5  
+                  FedEx services provides sales, marketing, information technology,  communications, customer service, technical support, billing and collection services  
+and supports our transportation segments.  
+Responsibilities:  • Owned a Custom Application Time Card which is recording or tracking the employees  
+time.  • Worked on Automation scripts for Time Card and other modules.  
+• Created BIRT report for Time Card.  • Worked on creating packages and migrating applications through Migration manager  
+mailto:reddymadhuk12@gmail.com 

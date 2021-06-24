@@ -1,0 +1,22 @@
+Abhinay Chauhan Full Stack Developer My desire for solving challenging problems led to my choices of studying Computer Engineering. I always push my limits and keep working harder. 
+abhinaychauhan911@gmail.com 9598688872 Hyderabad, India linkedin.com/in/abhinay-chauhan-79a02a131 
+EDUCATION B.E Army Institute of Technology, Pune 06/2016 - 10/2020, 8.68 CGPA 
+Computer Engineering Senior Secondary Kendriya Vidyalaya, IIT Kanpur 04/2014 - 03/2015, 90.8% 
+PCM + CS Secondary Kendriya Vidyalaya, IIT Kanpur 04/2012 - 05/2013, 9.2 CGPA 
+WORK EXPERIENCE Full Stack Developer DBS Bank 10/2020 - Present, Hyderabad, India 
+Experience in Node and React JS. Proficient in working as a Full-stack developer involving software development, integration & debugging. 
+Experience in Swagger. Strong Knowledge in SDLC - Working in Agile Software Development Methodology 
+Excellent communication, analytical, problem-solving, and documentation skills. POSITIONS AND RESPONSIBILITY 
+Open Source Software Club One of the 24 member core team responsible for organizing Innerve 18, technical festival of Army Institute of Technology. Coding Club Head of Coding club of my college and organized various coding competitions in AIT. 
+Campus Ambassador Campus ambassador at Interview Bit. TECHNICAL SKILLS 
+Node JS React Javascript Angular MariaDB C++ JAVA Algorithms Data Structures OS 
+MySQL PERSONAL PROJECTS 
+To-Do and Video Chat WebApp (06/2020 - 07/2019) You can add your to-do list and your private accounts after you logged in and also search other user and make a video call with them how have registered successfully. Twitter-Sentimental-Analysis (08/2018 - 09/2018) Fetched tweets from Twitter with the help of tweepy library and performing sentiment analysis. Result can be in three form Positive, Negative and Neutral. 
+Phone Directory Using AVL Tree (02/2018 - 02/2018) Created a phone directory using AVL tree (self-balancing tree) in C++ which can hold one or more than 1 phone number allocated to particular person. CERTIFICATES 
+Neural Networks (12/2018 - 01/2019) https://www.coursera.org/account/accomplishments/certificate/Q629583 FEGS6 Machine Learning Workshop on Machine learning by Quantiphi. 
+ACHIEVEMENTS 1st in Neo Coding Event at B.R Ambedkar COE. 
+1st in Coding Event at D Y Patil college of engineering. LANGUAGES 
+Hindi Professional Working Proficiency English Professional Working Proficiency 
+HOBBIES Travelling Music Programming 
+Course Stream 
+Achievements/Tasks mailto:abhinaychauhan911@gmail.com https://www.linkedin.com/in/abhinay-chauhan-79a02a131/ 

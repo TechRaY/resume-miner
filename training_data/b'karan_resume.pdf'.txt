@@ -1,0 +1,33 @@
+CSS SQL  Angular Spring Boot  
+Node Js Talend  C++ JAVA HTML  
+KARAN SAINI  karan.saini96@gmail.com +91-9456385464 Rajasthan, India  /in/karan-saini-6a45a6110/  
+WORK EXPERIENCE   Software Developer, Citi August 2019 – Present  
+   Integration Services  Working on Development of Services which enables other citi applications and partners to integrate  
+with Flexcube(A Bank in a box model) across multiple regions NAM, EMEA, LATAM, APAC.  Worked on configuration changes for these Services using springboot and apache camel as the  
+java frameworks.  Working on CI/CD, pipeline changes, code changes and deployment of these services on  
+openshift servers.  • Written test cases and worked on a java based framework (FAST) for the automated testing of  these services and generating reports for validating the response.  
+   Grad Portal  • Working on development of a portal where new joinees(Grads) can fill their profile data, projects  and submit choices for their next role, Also Managers and Spocs can login and give their  feedbacks, approve project of grads and send mail if they find any discrepancy.  
+• Created UI pages based on angular and material css and backend services and entities using  spring JPA which integrates with UI for the portal.  
+   Data Migration   Worked on optimizing and migrating SQL scripts which fetch data from various upstream  applications from sybase DB to oracle db.  
+• Migrated the data in Sybase DB to elasticsearch.  
+Summer Intern, Citi                                                                                  May 2018 – July 2018  Written test cases in java which check the validity of data which comes to the Citi velocity  
+dashboard(Application where markets and sales related data is shown).        Worked on documentation of Api’s using swagger.  
+PROJECTS   Satellite Image Classification                                                      November 2018 – March 2019  
+Implemented a CNN model for classification of Indian satellite images to classify  into five categories Land, water, Light and dark vegetative states.  
+Driverless Car Project                                                                                         November 2017  • Implemented a stereovision based approach(using two cameras) to detect lane and obstacles in  front of a car for the driverless car project as part of electronics section of IITR.  
+EDUCATION   Indian Institute of  Technology,Roorkee  
+  2015 - 2019  • CGPA : 7.2  
+Guru Harkrishan Public  School, Hanumangarh    2012-2014  
+• Twelfth : 84.8%   
+S.R.M International  School, Hanumangarh    2012  
+Tenth : 9.8 CGPA   
+SKILLS   Computer Languages  
+Software Packages  
+EXTRA-  CURRICULARS    Member of  Artificial  Intelligence and  Electronics Society  
+Member of NCC.  
+Organised inter hostel  badminton tournament  and YES+ courses in  campus  
+•  •  
+•  •  
+• •  •  
+•  •  
+https://linkedin.com/in/gouravdhar/ 

@@ -1,0 +1,11 @@
+SHUBHAM GHOSALKAR G-14, Palm Acres, Gavanpada, Mulund, Maharashtra, India - 400081 +91 720 850 2868 � shubhamghosalkar.sg@gmail.com 
+EDUCATION Bachelor of Engineering in Information Technology July 2014 - June 2018 Vivekanand Education Society’s Institute of Technology, Chembur CGPA till Semester VI: 8.03/10 
+High school - Model College, Dombivli (HSC) - 74.92% February 2014 Secondary school - I.E.S. C.P.V., Dombivli (SSC) - 86.36% March 2012 TECHNICAL STRENGTHS 
+Programming Languages C, Java, C#, JavaScript, PHP, SQL Databases MSSQL, MySQL, SQLite Tools & Frameworks WPF, Android, Bootstrap, Git PROJECTS 
+· Class Management Software: Developed an Enterprise Resource Planning Solution for coaching classes developed using C#, WPF and SQLite. · Blood Bank Management System: Developed an Android Application for blood banks to manage their day-to-day transactions. Implemented data synchronization across multiple devices of same user. 
+POSITIONS AND RESPONSIBILITIES Studyleague Education Services, Mumbai October 2015 - Present 
+· Product Developer: Coordinated with a team of four members in planning, designing and development of Nebula CRM. · Content Developer: Developed a full course study material on Web Programming covering Front-end and Back-end Development. 
+WORKSHOPS AND COMPETITIONS · Completed two days training on FOSS Technologies with Python Programming conducted by Foslipy Consultancy Services. 
+· Passed Qualification Round of Google Code Jam 2017 and entered top 4000 for Round 1B. EXTRA-CURRICULAR ACTIVITIES 
+· Executive Head, Aesthetics Committee: Coordinated with 8 members to lead a team of 25 volunteers in planning and designing of theme related posters and models for the technical festival Praxis’16. · Volunteer Head, Aesthetics Committee: Worked with 25 members to design aesthetically pleasing posters and structures for the technical festival Praxis’15. 
+· Cultural Incharge, Class Council: Promoted cultural activities by acting as connecting link between cultural committee and the class. · Runner-up of Light Graffiti event of VESIT’s cultural festival, UTSAV 2016. · Runner-up of both Singles and Doubles Carrom Competition 2013 at Model College. 
