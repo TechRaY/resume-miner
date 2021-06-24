@@ -29,8 +29,7 @@ def create_paragraphs(file_data_content):
     return paragraph
 
 def createFileAndWriteParagraphData(paragraphs, fileName):
-<<<<<<< HEAD
-    output_file_path = "trainingData/" + fileName + ".txt" #os.path.join("training_data/", str(fileName) + '.txt')
+    output_file_path = "trainingData/" + str(fileName) + ".txt" #os.path.join("training_data/", str(fileName) + '.txt')
     # if os.path.exists(output_file_path):
     #     return
     try:
@@ -42,12 +41,3 @@ def createFileAndWriteParagraphData(paragraphs, fileName):
         print(e)
     finally:
         file.close();
-=======
-    output_file_path = "training_data/" + str(fileName) + '.txt'
-    if os.path.exists(output_file_path):
-        return
-    with open(output_file_path, 'wt', encoding='utf8') as f:
-        for paragraph in paragraphs:
-            f.write(paragraph)
-            f.write('\n')
->>>>>>> 51ded598124c48a4430172631c603c1b98154227
