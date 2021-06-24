@@ -14,6 +14,7 @@ import os
 import phonenumbers
 from spacy.matcher import Matcher
 from spacy.matcher import PhraseMatcher
+from utility import create_paragraphs, createFileAndWriteParagraphData
 
 from keras_en_parser_and_analyzer.library.classifiers.lstm import WordVecBidirectionalLstmSoftmax
 from keras_en_parser_and_analyzer.library.utility.parser_rules import *
@@ -40,6 +41,25 @@ class Parse():
 
         for index, text, tokens in self.tokenizedDF.itertuples(): 
             print("Started processing document %s" %index)
+            paragraphs = create_paragraphs(text)
+
+            #for training data it was required
+            #createFileAndWriteParagraphData(list(paragraphs), index)
+
+            para_label_map = self.predict(list(paragraphs))
+
+            #Pass the paragraph to model
+            experience = [] #
+            education = []
+            skills = []
+
+            for key,value in para_label_map.items():
+                if(key == "skills"):
+                    skills.extend(value) # merging two list
+                if(key == "education"):
+                    education.extend(value)
+                if(key == "experience"):
+                    experience.extend(value)
 
             #handle name extraction --
             name = self.extract_name(text)
@@ -296,13 +316,17 @@ class Parse():
 
     def predict(self, paragraphs, print_line=False):
         self.load_model(current_dir + '/models')
+        output = dict()
         for p in paragraphs:
             if len(p) > 10:
                 line_label = self.line_label_classifier.predict_class(sentence=p)
                 line_type = self.line_type_classifier.predict_class(sentence=p)
                 print("line _label" + line_label + " paragraph " + p)
-
-
+                if output.get(line_label) is not None:
+                    output[line_label] += p
+                else:
+                    output[line_label] = p
+        return output
 
 if __name__ == "__main__":
     verbose = False
