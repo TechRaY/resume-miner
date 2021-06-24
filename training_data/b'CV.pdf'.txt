@@ -1,0 +1,26 @@
+Rachna Dodia  B-307, Friends CHS, Vakola Bridge, Santacruz(E),Mumbai-400055.  Phone No-9867843762 E-Mail ID:  rachna.dodia@gmail.com  
+Experience:  
+~2 years | Application support Analyst for Telephony and IVR  (BA-3) |  Barclays Technology Centre, India  Provide support to the multiple IVRs of Global Contact Centre for Barclays, Barclays Mobile  Banking, Barclays Video Banking and few other desktop applications which handles Retail  and Wealth Customers.  
+Roles and Responsibilities:  1. Leading automation from my team.  Carried two automations coordinating with IPSOFT  which saved 10 hours/month.  2. APAAS representative from my  team. Heavily involved in migrating the applications from  WAS to JBOSS (APAAS) and its testing.   3. Managing adhoc requests, BAU activities and providing On Call support.  4. Handling Incident Management, Problem Management & Change Management  processes.  5. Carrying resilience testing -DR Test activity.  6. Maintaining strong relationship with the L3 team/technology stakeholders.  7. Carrying planning and testing of the applications during patching.  8. Created several Knowledge Articles for the Production team/users to maintain a  knowledge base of known defects, issues, process, techniques etc.   9. Modified and created incident templates which routed the incidents to the    appropriate  team and  drastically reduced the incident  counts in our team queue.  10. Created standard change templates, scheduled reports to ensure compliance.  
+Certification:  
+ ITIL Foundation Certified  
+Education:  
+Sr  No  Exam  passed  
+Year University Percentage  1. B.Tech (IT) 2013-2017 Usha Mittal Institute Of Technology, Mumbai. 75%  
+2. XII,HSC 2012-2013 Patuck Technical Junior College, Mumbai. 75%  3. X,ICSE 2010-2011 Lilavatibai Podar High School, Mumbai. 79%  
+mailto:%20rachna.dodia@gmail.com 
+Skills:  
+➢ Technical skills-  • Technologies: IVR & APAAS(Red Hat Openshift)  • Windows and Linux Servers .Basics of Shell Scripting  
+• Database language: Oracle SQL  • Tools: Jenkins, Autosys , App Dynamics , SPLUNK, Wily, Cyara & Bladelogic  
+• Use SOAP-based web services  • Knowledge of common IT processes, including ITIL, Agile and SDLC  
+• Knowledge of Web based applications (certificates, IIS, Web Services)   • Documentation: Confluence  
+• Ticketing Tools: Service Now and Service First  • Programming languages: C, C++ & HTML  
+• Applications : Network Simulator 2 (NS2) & Simulation of Urban Mobility                    
+➢ Soft skills- Self Motivated, leadership qualities, team player, adaptability,  strong work ethic, management and organization skills.   
+Academic Projects:  
+Major Project: Performance analysis and mitigation of Black Hole Attack on VANET.  Abstract: VANET is used to collect and aggregate real-time speed and position of individual  vehicles to optimize the routing process . The black hole attack is one of the well-known  security threats in VANETS.  
+Mini Project: An Intelligent Traffic Light Scheduling Algorithm(ITLC) Through VANET.  Abstract: ITLC utilizes VANET which aims to decrease the waiting delay time at each road  intersection and to increase its throughput.  
+Achievements:  
+1. Received Global Recognitions in Barclays for demonstrating Value of Excellence,  Value of Service and Value of Respect.  2. Won 2nd  position in ‘PEN-IT’(Competitive Technical Paper Presentation on topic ‘3D  Printing’) organized by ACM at College level.         
+3. Won 2nd  position in ‘CODEX’(Competitive Programming) organized by ACM at  College level.  4. Class representative of E-CELL(Entrepreneurship council of UMIT,SNDT) in F.Y and  S.Y.B.Tech. Became Secretary of E-CELL in T.Y.B.Tech.  
+5. Achieved 1st position in ‘BEST ECO-FRIENDLY DIWALI MESSAGE’ organized by NSS  (National Service Scheme).   

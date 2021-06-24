@@ -1,0 +1,10 @@
+Ravi_Yadav_190521 
+RAVI YADAV yravi7861@gmail.com | +91 7507827367 Career Objective: 
+To continuously contribute in a fast-paced, dynamic environment in the field of software development that would enable me to utilize my technical, analytical, interpersonal skills, and strong work ethics. Summary Of Qualification: 
+● 2+ years of experience working with ASP.NET (C#.Net) as a backend and javascript, jQuery for front-end ● Experience in building REST APIs and Microservice APIs with gRPC and Protocol Buffers ● Experience in configuring and using RabbitMQ queues 
+Technical Skills: ● C# ASP.NET MVC & Webforms ● MVC and service-oriented architecture ● jQuery and JavaScript ● MySQL ● XUnit & Moq for Unit tests ● Memcache & RabbitMQ ● React Js & React Native(Beginner) ● GitHub 
+Experience: SDE1 at CarWale (Jan 2019 to till date) - Vashi, Navi Mumbai, Maharashtra 
+● Mostly Worked on AutoBiz Product, a lead management system used to follow up on leads, convert leads(potential customers) and improve car sales. ● Created and developed multiple key pages using ASP.NET MVC5 framework and Webforms. ● Created many stored procedures, inner queries for CRUD operations in autobiz. ● Created RPCs in .Net Core and consumed them in Autobiz Web application. ● Used Memcached and RabbitMQ wherever applicable for scaling Web Application and backend ● Hands-on experience in hybrid  Android App (Android + React native), developed a few 
+React Native screens. ● Worked under Scrum Framework for software development. ● Using various system Health check-ups and Monitoring tools like Graylog, Kibana, New Relic. ● Involved in all phases of the Development from analysis, design, development, testing, implementation, and maintenance with timely delivery against aggressive deadlines. 
+Educational Qualification: ● B.E in Information Technology with 9.23 CGPA from Vivekanand Education Society’s Institute of Technology(VESIT), Chembur, Mumbai ( Mumbai University ), 2014-2018 
+Achievements: ● Won High Flier award at CarWale for creating a lead pooling system for the internal calling team along with Ameyo dialer integration in Autobiz web application. 

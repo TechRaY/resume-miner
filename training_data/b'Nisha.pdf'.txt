@@ -1,0 +1,57 @@
+NNiisshhaa  SShhaaiikkhh    Navi Mumbai  ⚫  Phone: 9201278127  ⚫  shaikhnishabdulla7@gmail.com  
+Professional Summary  • Java Consultant with overall 4 years of Experience in Software Development and Enhancement.  
+• Currently working as Consultant at Capgemini.  • Hands on Experience with Core Java, Spring Framework, Spring-Boot Framework, ReactJS.  
+• Well versed with OOPS Concept’s, Database Concept’s, Rest webservices and hands on experience  with Oracle, h2 database.  • Knowledge about Reference Data Management, Logistics and Ecommerce services and also willing  to learn and work on new domains.  
+• Awarded with Star Award Adaptability, for learning and working with new technologies.  • Able to communicate effectively with both technical and non-technical project stakeholders.  
+• Proficient in coding and developing the new program.  
+Technical Skill Set  • Languages/Scripts: Java 1.8, JavaScript (ECMAScript 6)sql, ReactJS 16.  
+• Java API’s: Spring Boot, Spring mvc, Spring Integration, REST, Web Sockets, Multi Threading,  Streams, Collections.  • UI API’s: Redux, Axios, react-bootstrap  
+• Databases:Oracle, H2   • Software: Eclipse, STS, Intellij  
+• Operating Systems: windows, Linux(Basics)  
+Employer  • Working as Consultant at Capgemini from Feb 2018.  
+• Worked as Java Consultant at Global from July 2016 – Jan 2018  • Worked as Senior Java Developer at LDRL from Sep 2015 – July 2016.  
+• Worked as Senior Java Developer at Uber Content from Dec 2014 – Aug 2015.  
+Professional Experience  
+KEY PROJECTS HANDLED  Project: Multiplexor  
+Company: Capgemini  Client: In House Product  
+Role: Full Stack Developer  Description:  
+The project involves Developing Match & Merge mechanism for Reference Data from different  vendors and displaying the resulting output to Operation in UI.  
+API used in Backend Development :-  Spring-boot, Inhouse Integration Framework based on  Spring Integration, Caching Mechanism, Spring Transaction Management, REST Service, JSON,  
+Maven.  API used in Frontend Development :-  React 16, Redux, axios(Ajax), Bootstrap.  
+ Responsible For:  ▪ The role involved interacting with the Stakeholders to analyze and understand the  
+requirements as per the application and discuss the complexities of it both from technical  and functional perspectives.  
+▪ Documenting Technical Design Documents.  ▪ Peer Reviews.  
+▪ Following Agile cycle.  ▪ End to end System Testing the applications on DEV environments and deployment in  
+SIT.  ▪ Fixing QA bugs if any and conducting regression testing for the same.  
+▪   Technologies Used:  
+▪ Development  : Core Java, Spring,  Spring-Boot, ReactJS  ▪ Tools  : Tortoise SVN, Eclipse, IntelliJ,  Jenkins  
+Project: Transport Management System- Rapid Response  Company: Global  
+Client: JBHUNT Transport Services  Role: Developer  
+Description:  The project involves Developing new functionalities for exiting applications of the Transport  
+Management System. The applications worked on are as follows: -  • Account Representative Dashboard: - Spring boot, ExtJS, DB2, and SQL  
+• Freight Manager Application: - Spring, JSF, JSP, DB2 and SQL.  • Asset Maintenance: - Spring boot, AngularJS and SQL  
+• Unilever Batch Process: - Core java  The range of applications involved where Web Applications, Web Services, Listeners and Spring  
+Batch Applications. The challenging part of the project is working with new technology with  every release cycle.  
+ Responsible For:  ▪ The role involved interacting with the client to analyze and understand the requirements  
+as per the application and discuss the complexities of it both from technical and  functional perspectives.  
+▪ Documenting Requirement Understanding Document and Design Documents.  ▪ Conducting code reviews for the changes through Crucible.  
+▪ Unit Testing the application for the code changes.  ▪ End to end System Testing the applications on DEV/TEST environments.  
+▪ Fixing QA bugs if any and conducting regression testing for the same.  ▪ Promoting the application to production through Jenkins and also providing Production  
+Support for any issues occurring on Production.  Technologies Used:  
+▪ Development  : Core Java, Spring, Servlets, Spring-Boot, ExtJS, AngularJs 4  
+▪ Tools  : Tortoise SVN, STS, Eclipse, IntelliJ, Crucible, Jenkins, TFS  
+Project: Crawler  Company: Uber Content and LDRL  
+Client: In House Product  Role: Developer  
+Description:  The project involves creating a web app which can create scripts based on Xpath or regular  
+expressions. These scripts can be used later to execute and crawl data for list of URLs in a  multi-threaded environment.   
+Responsible For:  ▪ The role involved interacting with the Stakeholders to analyze and understand the  
+requirements as per the application and discuss the complexities of it both from  technical and functional perspectives.  
+▪ Developing in Agile cycle.  ▪ Unit Testing the application for the code changes.  
+▪ Fixing QA bugs if any and conducting regression testing for the same.  
+Technologies Used:  ▪ Development  : Core Java, Spring, JSP  
+▪ Tools  : STS, Eclipse  
+Achievements  
+• Star Awardee in NDS Global   • Appreciated by the client and nominated for client side awards  
+• Promoted as Senior Developer after 6 months’ internship  • Lead a team of 5 developers and 5 scripters  
+Qualifications  
+• M.C.A from S.I.E.S, Mumbai University, in the year 2015 with an aggregate of 67.5%  • B.Sc. (computer science) from S.I.E.S affiliated to Mumbai University, in 2013 with aggregate 68%  

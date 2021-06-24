@@ -1,0 +1,10 @@
+Last Updated on 24th May 2019 Yogesh Gupta  07yogeshgupta@gmail.com | Mumbai, IN |  8898 500 253  thatyogeshgupta |  incorrectusername |  yogeshgupta 
+EXPERIENCE UNFOUND | FULL STACK DEVELOPER June 2018 – Present • Developed the complete SSR website in React and NodeJS. • Developed backend for different operations which communicates with internal dashboard and ML server, in python. 
+• Designed the database schema in Mongo. • Developed a service for searching topics/stories using elastic search. • Managing servers on the AWS. • Developed modules for the internal dashboard. • Developed the backend and frontend for sending notifications. SKILLS SKILL Algorithms and Data Structures, MongoDB. PROGRAMMING LANGUAGES Python, JS, Java. LIBRARIES ReactJS. FRAMEWORKS/STACKS/TOOLS Elastic Search, Redis,Git, AWS(basics). 
+PROGRAMMING Over 5000 lines: Python • JavaScript Over 1000 lines: Java • CSS Familiar: OS • MySQL • Machine Learning • Shell EDUCATION VESIT | BE COMPUTER ENGINEERING Mumbai | August. 2014 - June. 2018 Cum. CGPA: 8.05 / 10.0 
+ACADEMIC PROJECTS CALIBRANT CHECK | CALIBRANT CLASSES April. 2017 - June. 2017 | Mumbai, IN • Designed and developed a SPA for Calibrant Classes website where students/parents can view attendance, test scores, etc, helping them to track the performance regularly in React. 
+ONLINE EDUCATION PORTAL | ACADEMIC PROJECT Oct. 2016 - Nov. 2016 | Mumbai, IN • Designed and Developed a working prototype of Education Portal using JavaScript, PHP, HTML. 
+INTERNSHIP APPMATTIC | SOFTWARE ENGINEER April 2018 – June 2018 SCHOLARSHIP TFWS AUGUST 2014 
+CO-CURRICULAR • Open Source, Competitive programming. • Completed Andrew Ng’s coursera Machine Learning course. 1 
+mailto:07yogeshgupta@gmail.com https://www.linkedin.com/in/thatyogeshgupta/ https://www.codechef.com/users/yogeshgupta/ HTTPS://UNFOUND.NEWS/ http://calibrantclasses.in/ http://calibrantclasses.in/ HTTPS://GITHUB.COM/INCORRECTUSERNAME/STUDENT-RESOURCE HTTPS://APPMATTIC.COM/ https://www.coursera.org/account/accomplishments/verify/HNU9LHJWXHW6 Experience Skills Programming 
+Education Academic Projects Internship Scholarship CO-CURRICULAR 

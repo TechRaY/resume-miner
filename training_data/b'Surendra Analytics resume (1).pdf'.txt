@@ -1,0 +1,31 @@
+Surendra Dattatrey  Mobile: +91-8595004424; E-Mail: surendradattatrey@gmail.com  
+AN OVERVIEW  
+➢ Close to 14 tears of work experience in the field of Data Sciences/Analytics and BI  implementations, Solutions development and leading 'complex' Analytics engagements.   ➢ More than 5 years of experience in Machine learning, Predictive modelling & advanced  analytics using various machine learning techniques  
+➢ Completed Executive Program from Indian School of Business - Hyderabad.   ➢ Experienced in Solution Design, Architect and Support.  ➢ Experienced in offering Descriptive and Predictive analytics, Data modeling, data mining &  data integration and deep learning solutions of complex financial applications.   ➢ Good knowledge of Statistical analysis both descriptive and inferential, probability  
+distributions and hypothesis testing.   ➢ Good knowledge of Hadoop, HDFC, Map-reduce programming.  ➢ Good understanding of Multiple Linear Regression and Logistic Regression.   ➢ Data Mining - Unsupervised Machine Learning techniques such as Clustering (hierarchical &  non-hierarchical) and PCA, Network Analysis, Association rules & Market Basket Analysis   ➢ Good experience in Machine learning algorithms such as K-means, Naive Bayes, Linear  
+Regression, Logistic Regression, Decision Tree, Random Forest, Bagging Boosting, SVM,  Artificial Neural Networks, Deep Learning, Gradient Boosting, Time Series and ARIMA  models, smoothing techniques.   ➢ Solid knowledge of Text Analytics, Topic Mining, NLP  ➢ Hands On experience in R, Python, Tableau  ➢ Build a repository on AWS, AWS Cloud watch, AWS far gate and Amazon Redshift.  ➢ Adept at project estimations & management, lead and mentor small sized team in previous  
+organizations.  ➢ Excellent organizational skills and attention to detail.   
+ORGANISATIONAL SCAN  
+• Feb, 19 till now : S&P Global as Associate Director in Advance Analytics   • Jan, 15 – Dec, 18: XL Catlin (Insurance and Reinsurance Company) as Tech Lead   
+• Nov, 12 – Jan, 15: Sapient Consulting Pvt. Ltd. As Module lead (Designation – Sr. Associate L1)   • Oct, 11 – Oct, 12: Initto Technology Pvt. Ltd. as Senior Developer.  
+• June, 10 - Oct, 11: Bank of America as Senior Software Developer  • Feb, 07 - Mar, 10: Accenture Services Pvt. Ltd. As Software Developer     
+ACADEMIC CREDENTAILS  
+• Executive Program in Business Analytics, Indian School of Business (Hyderabad) – 2017 – 2018   mailto:surendradattatrey@ 
+• B.E Computer science & engineering, University of Rajasthan, Jaipur (2002 – 2006)  
+Recent Contributions (Major Projects)  
+Project  Glassdoor Data analysis  Project  Description  
+We scrapped (suing web scrapping techniques) and analyze ~2200 Glassdoor reviews  by former and current employees of S&P and compare with ~12,000 reviews by  competitors. Identify keywords associated with positive and negative reviews and gain  insights from numerical data. Compare and contrast experiences at S&P vs  competitors.  Tools /  Methods  
+R, Tableau, Sentiment Analysis   
+Project  VIBE (Semi-Annual and Annual Employees survey) analysis   Project  Description  
+Perform analysis on VIBE responses to multiple questions associated with multiple  themes. Leverage NLP on textual data for analysis of comments to VIBE questions to  identify positive and negative sentiment indicators. Categorize words most frequently  associated with different categories – for example leadership, D&I and  empowerment.  Tools /  Methods  
+R, Sentiment Analysis, Tableau  
+Project  Gender biasness check  Project  Description  
+This project was to check any biasness in Job description which are being posted on  external and internal postings. We create data dictionary with many words which are  gender biased and using NLP techniques, we classify gender bias JDs back to recruiter  for modification.  Tools /  Methods  
+Python, NER (Named entity reorganization)   
+Project  Insights from Data Management team’s data  Project  Description  
+This project started with multiple objectives like –   1. Dynamics of attrition  2. Driving factor of attrition  We used historical data and applied machine learning techniques (Survival method,  CoxPH curve and Clustering) to get insights from this data.   
+Tools /  Methods  Python, Survival method, Cox proportional hazard method and clustering techniques,  Tableau  
+PERSONAL DETAILS  
+Date of Birth                 : 02nd March, 1984  Father’s Name              : Mr. Ramesh Chand Dattatrey  Permanent address    : L-806, Stellar Jeevan, Greater Noida West, Gautam Budh Nagar, UP -201306  
+Declaration:  I do hereby declare that all the above information is correct to the best of my knowledge and belief.  
+       Surendra Dattatrey  

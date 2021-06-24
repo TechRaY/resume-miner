@@ -1,0 +1,38 @@
+ +91-97987575765    krishnaik06@gmail.com     
+ Profile Summary   Achievement-driven professional with an experience of nearly 9 years   Experience in architecting Artificial Intelligence applications with Machine Learning, Deep Learning with Python.  Deep Learning Techniques includes ANN,CNN,RNN, Advanced CNN and Advanced RNN with LSTM.   Encoders, Decoders, Attention Models, Transformers, BERT    Skilled in libraries such as Pytorch Keras, Tensorflow , Sklearn, Numpy, Pandas, Matplotlib, Tableau for Data  
+Visualization   Extensive knowledge of working with NoSQL databases like Mongodb, Dynamo DB and SQL databases like MySQL  and SQL Server.     Additional skills of C#, ASP.NET MVC, Sitecore CMS, Solr 5.5.1, MVC, SQL Server, AJAX and XML   Worked with Devops teams for creating CI/CD Pipelines using Jenkin, CircliCI    Also Worked Independently for Deployment of Models using Dockers and Kubernetes In AWS cloud, Google  
+cloud and Azure.   Rich experience in all phases of the software development life-cycle such as agile process (requirements, design,  development, testing, release, support), utilizing multiple development methodologies, including Design Patterns, OOD,  Extreme Programming, and Structured Programming  
+ Expertise in manipulating and analyzing complex, high-volume, high-dimensionality data from varying data sources and  big data sources   Corporate Training Experience for more than 2+ years   Contributor to the Data Science Community   
+ Core Competencies   
+Data Science    Machine Learning   
+Artificial Neural  Networks  
+Convolutional Neural  Networks  
+Predictive Modelling   
+Computer Vision &  Image Processing  
+Quantitative Analysis   Training &  Development  
+Deep Learning   
+ Career Timeline  
+ Work Experience  
+Panasonic R&D, Bengaluru                                                                                                                                         Jan 2019-Till Date  
+Senior Associate L1,  Sapient Consultancy  
+Limited   Apr’14 – Dec’17  
+Dec’17 – Till Date   Tech Lead,  
+Honeywell  Technology Solution  
+Dec’11 – Apr’14  
+Software Developer,  HCL Technologies  
+Limited  
+Krish Naik  Experience in executing full life-cycle development projects; ramping up projects  within time, budget & quality parameters, as per project management & best  practice guidelines, targeting assignments in Data Science, Machine Learning  and Deep Learning with an organization of high repute  Location Preference: Bengaluru and Overseas  
+Key Result Areas:   Working closely with business and engineering teams to encourage statistical best practices with respect to experimental  design, data capture and data analysis  
+ Participating in Data Preprocessing Techniques in order to make data useful for creating Machine Learning Models   Building various regression and classification algorithms by using various Sklearn libraries such as Linear Regression,  Decision Trees, Ensemble techniques and Naïve Baye’s   Developing a model for predicting the sales for the Airlines Air Tickets based on seasonal and various occasions   Drafting Machine Learning Models for test A/B content for clear decisions related to the products   Contributing in Sitecore CMS web application development along MVC C# .net; creating various custom modules to fit  
+the requirements   Providing internal corporate training within the company for Data Science, ML and Deep Learning   Designing the neural networks using Tensorflow for various internal projects within the company such as automating  Chatbots using NLP   Creating skillsets using Amazon Alexa by using node JS  
+Highlights:   Executed some internal projects as Data Analyst with using tools such as Tableau for Data Visualization    Recognized by managers, colleagues, and peers for innovation, communication, and teamwork to ensure quality, timely  
+project completion  
+Annexure (Projects Undertaken)  
+Client:    Client Name  Project:    Project Name   Project Aim:                                        Automating the Support Process And Product Reviews Sentiment Analysis   Technology:   Machine Learning, Python, Sklearn, Artificial Intelligence, Neural Networks, Keras,       Tensorflow, Pytorch,Tableau for Data Visualization,Mongodb, Big Data,S3 AWS  Pipelines Created:                              1. Data Collection   2. Feature Engineering  3. Feature Selection  4. Model Creation  5. Model Hyperparameter Tuning  6. Model Deployment using Cloud  7. Model Retraining Approach  8. Model Results Dashboard using Tableau or PowerBi  
+Duration:   Ongoing   Role and Responsibilities: Lead Data Scientist  
+Projects Goals:                              Lead to increase the revenue of 2million $                                                               Saved the Company Expenditure by 2 % than the previous  
+ Education   B.Tech. (Computer Science Engineering) from PDA College of Engineering, Gulbarga, Karnataka University, Bengaluru  in 2011 with 9.24 CGPA  
+Technical Skills  Programming Languages: Python, Machine Learning, Artificial Intelligence, Deep Neural Networks, Convolutional Neural  Network, Sklearn Libraries, ASP.NET (v4.6 and prior), C#, Sitecore CMS (8.0,8.1,8.2), SOLR 5.5.1  Databases: Hadoop HDFS, MongoDb,SQL Server 2014/2012/2008/2005, MySQL, Basic knowledge in Oracle  
+Platforms and Misc.: Anaconda, Jupyter Notebook, Spyder IDE, Visual Studio 2017, VS 2016, Anaconda, Python IIS, Windows  XP/W7/W8  
+Personal Details   Date of Birth:     Languages Known:    Address:     
+(Refer to Annexure for Projects)  
