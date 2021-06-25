@@ -1,8 +1,8 @@
 from pdf2docx import parse
 import os
 
-path_input = 'Resumes/pdf/'
-path_output = 'Resumes/doc/'
+path_input = 'Sample/PDF/'
+path_output = 'Sample/Doc/'
 
 ## To convert pdf to docx
 def convertToDoc():

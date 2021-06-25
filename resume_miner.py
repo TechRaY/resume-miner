@@ -7,6 +7,7 @@ Created on Sat Jun 19 20:34:46 2021
 
 from pydoc import doc
 import sys
+import csv
 import nltk, re
 import pandas as pd
 import spacy
@@ -15,7 +16,7 @@ import phonenumbers
 from spacy.matcher import Matcher
 from spacy.matcher import PhraseMatcher
 from utility import create_paragraphs, createFileAndWriteParagraphData
-
+#from core_nlp_org_parser import get_orgs_list
 from keras_en_parser_and_analyzer.library.classifiers.lstm import WordVecBidirectionalLstmSoftmax
 from keras_en_parser_and_analyzer.library.utility.parser_rules import *
 from keras_en_parser_and_analyzer.library.utility.simple_data_loader import load_text_label_pairs
@@ -31,6 +32,12 @@ matcher = Matcher(nlp.vocab)
 current_dir = os.path.dirname(__file__)
 current_dir = current_dir if current_dir is not '' else '.'
 
+file = open("data\LINKEDIN_SKILLS_ORIGINAL.txt", "r", encoding='utf-8')
+skill = [line.strip().lower() for line in file]
+skillsmatcher = PhraseMatcher(nlp.vocab)
+patterns = [nlp.make_doc(text) for text in skill if len(nlp.make_doc(text)) < 10]
+skillsmatcher.add("Job title", None, *patterns)
+
 class Parse():
     inputDF = pd.DataFrame()
     def __init__(self,verbose=False):
@@ -39,8 +46,9 @@ class Parse():
         self.line_type_classifier = WordVecBidirectionalLstmSoftmax()
         self.tokenizedDF = self.tokenize(self.readResumeFiles())
 
+        final_extracted_info = []
         for index, text, tokens in self.tokenizedDF.itertuples(): 
-            print("Started processing document %s" %index)
+            #print("Started processing document %s" %index)
             paragraphs = create_paragraphs(text)
 
             #for training data it was required
@@ -53,13 +61,17 @@ class Parse():
             education = []
             skills = []
 
+
+            company_names = []
+            institution_names = []
+
             for key,value in para_label_map.items():
                 if(key == "skills"):
-                    skills.extend(value) # merging two list
+                    skills = value # merging two list
                 if(key == "education"):
-                    education.extend(value)
+                    education = value
                 if(key == "experience"):
-                    experience.extend(value)
+                    experience =value
 
             #handle name extraction --
             name = self.extract_name(text)
@@ -74,19 +86,31 @@ class Parse():
             phone = self.extract_phone(text)
 
             #handle experience extraction --
-            experience = self.extract_experience(text)
-            
+            #no need to do anything as we want the entire para
+            #experience = self.extract_experience(text)
+
+
+            #get company names--
+            #company_names = self.extract_company_names(experience)
+
+            #get university list\
+            university_name = []
+            university_name = self.extract_university(text)
+            #print("unviersity_name", university_name)
+
             #handle skills extraction--
             skills = self.extract_skills(text)
 
             
             #handle qualification extraction--
-            qualification = self.extract_qualification(text)
+            qualification = self.extract_qualification(education)
 
-            extractedInfo = self.getInfo("fileName " + str(index), name, email, linkedin, phone, experience, skills, qualification) # TODO -> move this to util
-            
+            extractedInfo = self.getInfo("fileName " + str(index), name, email, linkedin, phone, experience, skills, qualification, company_names)
+            final_extracted_info.append(extractedInfo) # TODO -> move this to util
             print(extractedInfo) #TODO -> remove this  print
-        
+
+        #self.writeToCsv(final_extracted_info)
+
         #TODO -> Dump all jsonRespnses to csv or excel sheet
         
     def readResumeFiles(self):
@@ -153,9 +177,12 @@ class Parse():
        
         if linkedin:
             try:
-                return linkedin
+                if linkedin == None:
+                    return ""
+                else:
+                    return linkedin
             except IndexError:
-                return None
+                return ""
     
     def extract_phone(self, text):
         try:
@@ -207,30 +234,42 @@ class Parse():
         except:
             return ''
             pass
-    
-    # def extract_university(self, text):
-    #     df = pd.read_csv("resume-miner\data\world_university.csv", header=None)
-    #     universities = [i.lower() for i in df[1]]
-    #     college_name = []
-    #     listex = universities
-    #     listsearch = [text.lower()]
 
-    #     for i in range(len(listex)):
-    #         for ii in range(len(listsearch)):
-    #             if re.findall(listex[i], re.sub(' +', ' ', listsearch[ii])):
-    #                 college_name.append(listex[i])
-        
+    # def extract_company_names(self, experience):
+    #     for lines in experience:
+    #         return get_orgs_list(lines)
+    
+    def extract_university(self, text):
+        df = pd.read_csv("data\world_university.csv", header=None)
+        universities = [i.lower() for i in df[1]]
+        college_name = []
+        listex = universities
+        listsearch = [text.lower()]
+        for i in range(len(listex)):
+            for ii in range(len(listsearch)):
+                if re.findall(listex[i], re.sub(' +', ' ', listsearch[ii])):
+                    college_name.append(listex[i])
+        return college_name
     
     def extract_skills(self, text):
         try:
-            return ''
+            skills = []
+            __nlp = nlp(text.lower())
+            # Only run nlp.make_doc to speed things up
+
+            matches = skillsmatcher(__nlp)
+            for match_id, start, end in matches:
+                span = __nlp[start:end]
+                skills.append(span.text)
+            skills = list(set(skills))
+            return skills
         except:
             return ''
             pass
         
     def extract_qualification(self, text):
         try:
-           return ''
+           return text
         except:
             return ''
             pass
@@ -248,17 +287,28 @@ class Parse():
         except Exception as e:
             pass
 
-    def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, qualification):
+    def getInfo(self, fileName, name, email, linkedin, phone, experience, skills, qualification, company_names):
         return {
-            "file": fileName,
             "name": name,
             "email": email,
             "linkedin": linkedin,
             "phone": phone,
-            "experience": experience,
             "skills": skills,
-            "qualification": qualification,
+            "Summary": qualification
         }
+
+    def writeToCsv(self, dict_data):
+        csv_columns = ['name','email','linkedin', 'phone','skills', 'Summary']
+        csv_file = "results.csv"
+        try:
+            with open(csv_file, 'w') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+                writer.writeheader()
+                for data in dict_data:
+                    writer.writerow(data)
+        except Exception as e:
+            print(str(e))
+
 
     def load_model(self, model_dir_path):
             self.line_label_classifier.load_model(model_dir_path=os.path.join(model_dir_path, 'line_label'))
@@ -321,7 +371,7 @@ class Parse():
             if len(p) > 10:
                 line_label = self.line_label_classifier.predict_class(sentence=p)
                 line_type = self.line_type_classifier.predict_class(sentence=p)
-                print("line _label" + line_label + " paragraph " + p)
+                #print("line _label" + line_label + " paragraph " + p)
                 if output.get(line_label) is not None:
                     output[line_label] += p
                 else:

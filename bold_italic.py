@@ -1,8 +1,8 @@
 import os
 from docx import *
 
-path_input = 'pdf/'
-path_output = 'doc/'
+path_input = 'Sample/PDF/'
+path_output = 'Sample/Doc/'
 
 ## To extract bold and italic texts from all docx files
 
@@ -30,6 +30,7 @@ def getFontInfoForFiles():
         file_bold_italic[file] = boltalic
 
     print(file_bold_italic)
+    info = dict()
     for file_name, info in file_bold_italic.items():
         for key, value in info["fonts"].items():
             if value not in info["font_info"].keys():
@@ -37,3 +38,6 @@ def getFontInfoForFiles():
             else:
                 info["font_info"].get(value).append(key)
     print(info)
+
+if __name__ == "__main__":
+    getFontInfoForFiles()
