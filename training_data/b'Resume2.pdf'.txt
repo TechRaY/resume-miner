@@ -1,0 +1,21 @@
+  Md Sah Akram   
+  Email ID: mdsahakram20@gmail.com                                            DOB-20 Oct 1996     Address: MQ-153,Mahavir nagar,Odisha                                               Mobile:+919078948862                                       
+Professional Summary:   • Having 1+ year of experience as Maximo developer, working at Wipro Limited.    
+• Having good experience in Automation Scripting in Maximo.     • Worked on Automation Script, Application Designer, Conditional Expression, Database  
+Configuration, Domain, Views, Relationships.    • Created a Custom Application Time Card and worked extensively.    
+• Worked on Time card, Work Order, Master Over Time modules.   • Worked on the complete of Workflow for timecard module.  
+• Created BIRT reports in Maximo for Time Card Application.    Professional Experience:    
+• Working for Wipro Limited, Hyderabad from 2019 to till time as Project Engineer.   Technical Skills:    
+            Scripting Languages   : Python, SQL,Java           Database          : DB2    
+Tools    
+Project 1:    
+         : Maximo v7.5    • Client      : FedEx Express    
+• Role      : Maximo Developer    • Tools      :  Maximo v7.5    
+                  FedEx services provides sales, marketing, information technology,  communications, customer service, technical support, billing and collection services  
+and supports our transportation segments.    
+Responsibilities:    • Owned a Custom Application Time Card which is recording or tracking the employees  
+time.    
+• Worked on Automation scripts for Time Card and other modules.    Education:   
+  Bachelor of Technology     IGIT,Sarang     04/2015-05/2019   
+Languages:   • English   
+• Hindi   

@@ -1,0 +1,17 @@
+Last Updated on 3rd December 2020 Janardan Tiwari +91-7982040732 | janardant8991@gmail.com 
+EDUCATION DELHI TECHNOLOGICAL UNIVERSITY (FORMERLY DCE) B.TECH IN INFORMATION TECHNOLOGY 2017-21 | Delhi, India CGPA : 8.14 D.A.V SR.SEC. PUBLIC SCHOOL 2015-16 | Ashok Vihar, Delhi XII Boards: 91.8 % 
+2013-14 | Delhi, India X Boards CGPA: 9.6 LINKS Codeforces: Spark_in Codechef: Spark_in Hackerrank: janardantiwari6 LinkedIn: Janardan Tiwari Github : janardantiwari 
+COURSEWORK UNDERGRADUATE AlgorithmDesign and Analysis Data Structures Operating System Object Oriented Programming Computer Networks DatabaseManagement System ADDITIONAL Competitive Programming Machine Learning 
+SKILLS PROGRAMMING Languages • C++ • Python Frameworks/Libraries: • Scikit-Learn • TensorFlow • Pandas • Numpy •Matplotlib •OpenCV 
+ML Algorithms : • Linear & Logistic Regression • Gradient Descent • Decision Trees & Random Forests • Naive Bayes • K.N.N. • C.N.N. • SVM • PCA EXPERIENCE DELHI TECHNOLOGICALUNIVERSITY | IN-HOUSE TRAINING May 2020 - July 2020 | Delhi, India • Learned about various concepts of OpenCV in python : 
+-Working with images and videos - Image processing techniques - Object detection and tracking techniques • Worked on Face detection using Haarcascades in OpenCV 
+PROJECTS HANDDETECTIONANDFINGERCOUNTING • Worked on a python program to detect hand 
+on live webcam and count fingers • Used various image processing techniques in OpenCV to detect finger tips • Used convex hull to calculate the finger count IMDBMOVIEWREVIEWANALYSIS • A dataset consisting of 50000+moview reviews was used to perform sentiment analysis . 
+• ANaive bayes model was built to analyse whether the review is good or bad keywords were found using : Tfidf vectorizer MNISTDIGIT CLASSIFICATION • Implemented a Convolutional Neural Network model • with a convolution layer -32 units and dense layer -10 units trained onMNIST dataset using Keras library and Tensorflow API. 
+• Used rmspropOptimizer andmanaged to achieve an accuracy of 99.0%. ACHIEVEMENTS GOOGLEKICKSTART • 2020 Round A Global rank 397 • 2019 RoundH Global rank 411 
+GOOGLEHASHCODE |TeamName : 91weapons_fan_club Among Top 100 Indian teams (Country Rank : 75) in Google Hashcode, 2020 CODEFORCES HIGHESTRATING: 1935 (CANDIDATEMASTER ) • Round 643 Global Rank: 20 • Round 583 Global Rank: 72 
+CODECHEF HIGHEST RATING: 2088 (5 - STAR ) • LTIME85B Global Rank: 26 • LTIME84B Global Rank: 46 • COOK120A Global Rank: 85 CODECHEF SNACKDOWN2018 • Qualified for round 2 
+HACKERRANK • 6 star Problem Solving • 5 star Python HOBBIES • Playing Badminton and Chess • Solving Puzzles 
+mailto:janardant8991@gmail.com https://codeforces.com/profile/spark_in https://www.codechef.com/users/spark_in https://www.hackerrank.com/janardantiwari6 https://www.linkedin.com/in/janardan-tiwari-10b32118b/ Education DELHI TECHNOLOGICAL D.A.V Sr.Sec. Public School 
+Links Coursework Undergraduate Additional Skills Programming 
+Experience Projects ACHIEVEMENTS Codeforces  Highest Rating: 1935  (Candidate Master ) Codechef  Highest Rating: 2088  (5 - star ) Codechef SNACKDOWN 2018 HACKERRANK HOBBIES 
